@@ -1,0 +1,24 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro'
+import EventCard from '../components/EventCard.astro'
+---
+
+<BaseLayout
+  title="Programm"
+  description="Programm - Kulturverein Muri bei Bern."
+>
+  <section class="container grid items-center gap-6 py-12 md:py-24 lg:py-32">
+    <div class="flex max-w-[980px] flex-col items-start gap-2 space-y-2">
+      <h1
+        class="text-3xl font-extrabold leading-tight tracking-tighter md:text-5xl"
+      >
+        Programm
+      </h1>
+
+      <p class="text-md pb-2 text-muted-foreground">
+        Erleben Sie mit uns Livemusik und Kultur in Ihrer Nähe.
+      </p>
+      <EventCard title="The Sparklettes" date="12.12.2025" time="20:00" />
+    </div>
+  </section>
+</BaseLayout>

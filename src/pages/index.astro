@@ -1,23 +1,14 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro'
 import HeroSection from '../components/HeroSection.astro'
+import LoremIpsumSection from '../components/LoremIpsumSection.astro'
+import ProgrammSection from '../components/ProgrammSection.astro'
 ---
 
-<BaseLayout title="Home" description="Home - Kulturverein Muri be Bern.">
-  <section class="container grid items-center gap-6 pb-8 pt-6 md:py-10">
+<BaseLayout title="Home" description="Home - Kulturverein Muri bei Bern.">
+  <article class="container grid items-center gap-6 pb-8 pt-6 md:py-10">
     <HeroSection />
-    <div class="flex max-w-[980px] flex-col items-start gap-2 pt-12">
-      <h1
-        class="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl"
-      >
-        Lorem ipsum dolor sit !
-      </h1>
-      <p class="py-5 text-lg text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas fuga
-        doloribus neque. Distinctio, beatae harum. Deleniti et velit ducimus
-        veritatis molestias nam consequuntur laboriosam quisquam, ea delectus
-        dignissimos rerum minus!
-      </p>
-    </div>
-  </section>
+    <ProgrammSection />
+    <LoremIpsumSection />
+  </article>
 </BaseLayout>

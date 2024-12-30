@@ -1,0 +1,64 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro'
+---
+
+<BaseLayout title="Kontakt" description="Kontakt - Kulturverein Muri bei Bern.">
+  <section class="container grid items-center gap-6 py-12 md:py-24 lg:py-32" >
+    <div class="flex max-w-[980px] flex-col items-start gap-2 space-y-2">
+      <h1
+        class="text-3xl font-extrabold leading-tight tracking-tighter md:text-5xl"
+      >
+        Kontakt
+      </h1>
+      <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        netlify
+      >
+        <input type="hidden" name="form-name" value="contact" />
+        <p hidden>
+          Do not fill this out: <input name="bot-field" />
+        </p>
+        <div class="grid space-y-2">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="border-skin-fill bg-skin-fill focus:border-skin-accent block w-full rounded border border-opacity-40 p-2 placeholder:text-opacity-75 focus:outline-none"
+            placeholder="Ihr Name"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="border-skin-fill bg-skin-fill focus:border-skin-accent block w-full rounded border border-opacity-40 p-2 placeholder:text-opacity-75 focus:outline-none"
+            placeholder="Ihre E-mail Adresse"
+            required
+          />
+
+          <label for="message">Nachricht:</label>
+          <textarea
+            id="message"
+            name="message"
+            class="border-skin-fill bg-skin-fill focus:border-skin-accent block w-full rounded border border-opacity-40 p-2 placeholder:text-opacity-75 focus:outline-none"
+            placeholder="Ihre Nachricht"
+            rows="4"
+            required></textarea>
+
+          <button
+            type="submit"
+            class="rounded-lg bg-orange-600 p-2 text-white transition-colors hover:bg-gray-800"
+          >
+            Absenden
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+</BaseLayout>
