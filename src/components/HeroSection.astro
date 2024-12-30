@@ -1,0 +1,38 @@
+---
+import { Image } from 'astro:assets'
+import heroImage from '../assets/images/thesparklettes.jpeg'
+---
+
+<section class="bg-yellow-300 py-12 md:py-12">
+  <div class="container mx-auto px-4 md:px-6">
+    <div
+      class="flex flex-col items-center justify-between gap-8 md:flex-row"
+    >
+      <div class="flex-1 text-center md:text-left">
+        <h1
+          class="mb-4 text-4xl font-bold tracking-tighter md:text-5xl lg:text-6xl"
+        >
+          Kulturverein Muri Gümligen
+        </h1>
+        <p class="mb-6 text-xl text-gray-700 md:text-2xl">
+          Unser neues Programm 2025 ist da!
+        </p>
+        <button
+          class="rounded-lg bg-orange-600 px-4 py-3 text-lg font-semibold text-white transition-colors hover:bg-gray-800"
+        >
+          Programm 2025
+        </button>
+      </div>
+      <div className="flex-1">
+        <Image
+          src={heroImage}
+          width={600}
+          height={600}
+          alt="Hero image"
+          className="rounded-lg shadow-lg"
+          priority
+        />
+      </div>
+    </div>
+  </div>
+</section>

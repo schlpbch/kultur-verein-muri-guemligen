@@ -1,10 +1,11 @@
 {
-  "name": "@area44/astro-shadcn-ui-template",
+  "name": "kultur-verein-muri-gümligen",
   "version": "23.12.26",
-  "description": "An Astro template for building apps.",
+  "description": "Website des Kulturvereins Muri-Gümligen",
   "author": {
-    "name": "AREA44"
+    "name": "Andreas Schlapbach"
   },
+  "private": true,
   "license": "MIT",
   "scripts": {
     "build": "astro build",

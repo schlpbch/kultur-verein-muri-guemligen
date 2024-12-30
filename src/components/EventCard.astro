@@ -1,0 +1,89 @@
+---
+import { Image } from 'astro:assets'
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardFooter,
+  CardTitle,
+  CardDescription,
+} from '@/components/ui/card'
+import { Badge } from '@/components/ui/badge'
+import { CalendarDays, MapPin, Music } from 'lucide-react'
+import eventImage from '../assets/images/zia-lisa.jpg'
+import EventPrices from './EventPrices.astro'
+
+const { date, title, subtitle, location, prices } = {
+  date: '12.12.2025',
+  title: 'E Musicae Gaudio',
+  subtitle: 'Kammerensemble',
+  location: 'Muri bei Bern',
+  prices: [
+    { category: 'Erwachsene', price: 25 },
+    { category: 'Studierende', price: 15 },
+    { category: 'Kinder', price: 10 },
+  ],
+}
+---
+
+<section class="w-full bg-background py-12">
+  <div class="container px-4 md:px-6">
+    <Card class="overflow-hidden">
+      <CardHeader>
+        <div
+          class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between"
+        >
+          <div>
+            <Badge variant="secondary" class="mb-2">
+              {date}
+            </Badge>
+            <CardTitle class="text-2xl font-bold md:text-3xl">
+              {title}
+            </CardTitle>
+            <CardDescription
+              class="text-1xl font-bold text-yellow-500 md:text-2xl"
+            >
+              {subtitle}
+            </CardDescription>
+          </div>
+          <Badge variant="outline" class="w-fit align-top">
+            {location}
+          </Badge>
+        </div>
+      </CardHeader>
+      <CardContent class="mt-6 grid gap-6">
+        <div
+          class="relative aspect-[16/9] overflow-hidden rounded-lg md:aspect-[21/9]"
+        >
+          <Image
+            src={eventImage}
+            width={800}
+            alt="Overhead view of E Musicae Gaudio ensemble arranged in a circle"
+            class="object-cover"
+            layout="responsive"
+            sizes="(max-width: 768px) 100vw, 800px"
+          />
+        </div>
+        <div class="space-y-4">
+          <p>E Musicae Gaudio = Aus Freude an der Musik</p>
+          <p>
+            Wenn die 9 Künstlerinnen gemeinsam musizieren, übertragen sie dieses
+            Motto im wahrsten Sinne des Wortes auf die Zuhörenden.
+          </p>
+          <p>
+            Einige Musikerinnen des Kammerorchesters «E Musicae Gaudio»
+            entschlossen sich, unter dem selben Namen ein Kammerensemble zu
+            gründen. Seither konzertieren sie in dieser Formation erfolgreich in
+            der Schweiz und in weiteren europäischen Städten. Ihr Repertoire
+            bietet eine reiche Palette an Werken und Stilen aus verschiedenen
+            Epochen.
+          </p>
+          <p class="italic">Freude an der Musik par excellence.</p>
+        </div>
+      </CardContent>
+      <CardFooter>
+        <EventPrices prices={prices} />
+      </CardFooter>
+    </Card>
+  </div>
+</section>
