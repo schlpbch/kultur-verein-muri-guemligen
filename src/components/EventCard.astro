@@ -12,64 +12,61 @@ import { Badge } from '@/components/ui/badge'
 import eventImage from '../assets/images/zia-lisa.jpg'
 import EventPrices from './EventPrices.astro'
 
-const { date, title, subtitle, location, prices } = {
-  date: '12.12.2025',
-  title: 'E Musicae Gaudio',
-  subtitle: 'Kammerensemble',
-  location: 'Muri bei Bern',
-  prices: [
-    { category: 'Erwachsene', price: 25 },
-    { category: 'Studierende', price: 15 },
-    { category: 'Kinder', price: 10 },
-  ],
-}
+const { date, title, subtitle, location, prices } = Astro.props
 ---
 
-<div class="container">
-  <Card>
-    <CardHeader>
-      <Badge variant="secondary" class="mb-2">
-        {date}
-      </Badge>
-      <CardTitle class="text-2xl font-bold md:text-3xl">
-        {title}
-      </CardTitle>
-      <CardDescription class="text-2xl font-bold text-yellow-500 md:text-2xl">
-        {subtitle}
-      </CardDescription>
+<Card>
+  <div class="flex flex-col items-center gap-2 md:flex-row">
+    <div class="min-w-96 flex-1 space-y-4 align-top">
+      <CardHeader>
+        <div class="my-3 flex items-center gap-2">
+          <Badge variant="outline">
+            {date}
+          </Badge>
+          <Badge variant="outline">
+            {location}
+          </Badge>
+        </div>
 
-      <Badge variant="outline" class="w-fit align-top">
-        {location}
-      </Badge>
+        <CardTitle>
+          {title}
+        </CardTitle>
+        <CardDescription>
+          {subtitle}
+        </CardDescription>
 
-      <Image
-        src={eventImage}
-        width={600}
-        alt="Overhead view of E Musicae Gaudio ensemble arranged in a circle"
-        class="object-cover"
-        layout="responsive"
-        sizes="(max-width: 768px) 100vw, 800px"
-      />
-    </CardHeader>
-    <CardContent>
-      <div class="space-y-4">
-        <p>E Musicae Gaudio = Aus Freude an der Musik</p>
-        <p class="text-md text-muted-foreground">
-          Wenn die 9 Künstlerinnen gemeinsam musizieren, übertragen sie dieses
-          Motto im wahrsten Sinne des Wortes auf die Zuhörenden.
-        </p>
-        <p class="text-md text-muted-foreground">
-          Einige Musikerinnen des Kammerorchesters «E Musicae Gaudio»
-          entschlossen sich, unter dem selben Namen ein Kammerensemble zu
-          gründen. Seither konzertieren sie in dieser Formation erfolgreich in
-          der Schweiz und in weiteren europäischen Städten. Ihr Repertoire
-          bietet eine reiche Palette an Werken und Stilen aus verschiedenen
-          Epochen.
-        </p>
-      </div>
-    </CardContent>
-    <CardFooter>
-      <EventPrices prices={prices} />
-    </CardFooter>
-  </Card>
-</div>
+        <Image
+          src={eventImage}
+          width={400}
+          alt="Zia Lisa"
+          layout="responsive"
+          class="rounded-sm shadow-lg"
+        />
+      </CardHeader>
+    </div>
+    <div>
+      <CardContent>
+        <div class="text-md text-md space-y-4">
+          <p class="text-muted-foreground">
+            Wer kennt sie (noch) nicht? Zia Lisa spielte bei Corona in leeren
+            Gassen Berns und lockte Bewohnende der Altstadt Fenster zu öffnen
+            und mit frischen, unbeschwerten Klängen dem Lockdown zu entfliehen.
+            Seither hat das Trio unzählige Feste bereichert und Bühnen mit Italo
+            Pop vom Feinsten bespielt. Zia Lisa entführt ins sonnige Italien und
+            lässt uns hier von endlosem Sommer, Strand, Meer und dem
+            unvergleichlichem «Dolce Vita» träumen. Mit Songperlen aus den 50er
+            Jahren bis heute, von Celentano über Ramazzotti bis Zucchero «Venite
+            con noi, a volare, cantare e sognare!»..
+          </p>
+          <p class="text-muted-foreground">
+            Mario Capitanio: Stimme, Gitarre Markus Graf: Gitarre, Stimme
+            Michael Leuenberger: Kontrabass, Stimme
+          </p>
+        </div>
+      </CardContent>
+      <CardFooter>
+        <EventPrices prices={prices} />
+      </CardFooter>
+    </div>
+  </div>
+</Card>

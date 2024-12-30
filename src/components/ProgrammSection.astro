@@ -2,7 +2,7 @@
 import EventCard from './EventCard.astro'
 ---
 
-<section class="py-8 md:py-6">
+<section id="Programm" class="py-8 md:py-6">
   <div class="container mx-auto px-4 md:px-6">
     <div class="flex flex-col items-start gap-2 pt-8">
       <h2 class="text-2xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -13,7 +13,13 @@ import EventCard from './EventCard.astro'
       >
         Erleben Sie mit uns Livemusik und Kultur in Ihrer Nähe.
       </p>
-      <EventCard />
+      <EventCard
+        title="Zia Lisa"
+        subtitle="Konzert"
+        date="Freitag 12. März 2025"
+        location="Muribad"
+        prices={[{ category: 'Erwachsene', price: 'Kollekte' }]}
+      />
     </div>
   </div>
 </section>
