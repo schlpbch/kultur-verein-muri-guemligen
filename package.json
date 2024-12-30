@@ -1,9 +1,10 @@
 {
-  "name": "kultur-verein-muri-gümligen",
-  "version": "23.12.26",
+  "name": "kultur-verein-muri-guemligen",
+  "version": "0.0.1",
   "description": "Website des Kulturvereins Muri-Gümligen",
   "author": {
-    "name": "Andreas Schlapbach"
+    "name": "Andreas Schlapbach",
+    "email": "schlpbch@gmail.com"
   },
   "private": true,
   "license": "MIT",
