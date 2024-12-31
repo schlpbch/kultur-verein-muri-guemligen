@@ -1,34 +1,23 @@
 ---
+import EventCard from '../components/EventCard.astro'
+import BaseLayout from '../layouts/BaseLayout.astro'
+
 import { getCollection } from 'astro:content'
 const events = await getCollection('events')
 ---
 
-<section class="rounded-md bg-yellow-300 py-10">
-  <div class="container mx-auto px-4 sm:px-0 md:px-6">
-    <div
-      class="flex flex-col items-center justify-between gap-8 py-10 md:flex-row"
-    >
-      <div class="flex-1 text-center md:text-left">
-        <h1
-          class="mb-4 text-4xl font-bold tracking-tighter text-gray-900 md:text-5xl lg:text-6xl"
-        >
-          Kulturverein Muri Gümligen
-        </h1>
-        <p class="mb-6 text-xl text-gray-700 md:text-2xl">
-          Unser neues Programm 2025 ist da!
-        </p>
-
-        <ul>
-          {
-            events.map((event) => (
-              <li>
-                <h2>{event}</h2>
-                <p>{event.date}</p>
-              </li>
-            ))
-          }
-        </ul>
-      </div>
+<BaseLayout
+  title="Programm"
+  description="Programm - Kulturverein Muri bei Bern."
+>
+  <section class="container grid items-center gap-6 py-12 md:py-24 lg:py-32">
+    <div class="flex max-w-[980px] flex-col items-start gap-2 space-y-2">
+      <h1
+        class="text-3xl font-extrabold leading-tight tracking-tighter md:text-5xl"
+      >
+        Programm
+      </h1>
+      {events.map((event) => <EventCard event={event} />)}
     </div>
-  </div>
-</section>
+  </section>
+</BaseLayout>

@@ -1,15 +1,20 @@
 ---
-title: The Sparklettes
-date: 2025-03-12
+title: Housi Knecht
+subtitle: Atelierbesuch
+date: 2025-02-14
+location: Atelier Housi Knecht
+prices: [15, 20, 10]
 ---
 
-Vier Jazz-Sängerinnen sind auf Mission in der Tourismusbranche. Ob am Schwingfest, zum Aprés Ski, zur TunnelEröffnung oder im Nachtprogramm des Palace Hotels, wo ihnen ungeahnt hohe Gagen winken. Also wird heimisches Lied- und Gedankengut munter strapaziert, aufgepeppt, feministisch aufbereitet und je länger je Gems-mässiger gebockt; auch die Songs der «heiligen Platzhirsche» der Schweizer Musikszene werden auf die Hörner genommen.
+Im Jahr 2013 hat der Berner Künstler Housi Knecht zusammen mit seiner Frau Barbara das Schlössli Rubigen übernommen und einen öffentlich zugänglichen Kunst- und Kulturpark
+angelegt.
 
-The Sparklettes, wie man sie kennt und liebt: Ausgeklügelte
-Arrangements in schwindelerregender und atemberaubender
-A Cappella-Manier.
+Bei unserem Besuch werden wir zuerst das Atelier von Housi
+Knecht in Gümligen besuchen, wo er seine bekannten Skulpturen herstellt. Nach dem Transfer ins Schlössli Rubigen gibt
+uns Housi Knecht einen Einblick in die Geschichte des Hauses und führt uns durch den Park mit seinen beeindruckenden Werken.
 
-Stimmen: Doris McVeigh, Isabelle Ritter, Nina Gutknecht,
+Der Vorabend klingt bei einem Apéritif aus.
 
-Xenia Zampieri
-(max. 75 Teilnehmende)
+Treffpunkt:
+16 Uhr, Atelier Housi Knecht, Dammweg 41, 3073 Muri
+(max. 25 Teilnehmende)

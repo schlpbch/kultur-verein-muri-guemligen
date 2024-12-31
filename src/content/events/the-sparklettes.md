@@ -1,19 +1,16 @@
 ---
-title: Housi Knecht
-date: 2025-02-12
+title: The Sparklettes
+subtitle: Helvetia Bockt!
+date: 2025-10-17
+location: Bärtschihus, Gümligen
+prices: [30, 38, 15]
 ---
 
-Im Jahr 2013 hat der Berner Künstler Housi Knecht zusammen mit seiner Frau Barbara das Schlössli Rubigen übernommen und einen öffentlich zugänglichen Kunst- und Kulturpark
-angelegt.
+Vier Jazz-Sängerinnen sind auf Mission in der Tourismusb ranche. Ob am Schwingfest, zum Aprés Ski, zur Tunnel-Eröffnung oder im Nachtprogramm des Palace Hotels, wo ihnen ungeahnt hohe Gagen winken. Also wird heimisches Liedund Gedankengut munter strapaziert, aufgepeppt,feministisch aufbereitet und je länger je Gems-mässiger gebockt; auch die Songs der «heiligen Platzhirsche» der
+Schweizer Musikszene werden auf die Hörner genommen.
 
-Bei unserem Besuch werden wir zuerst das Atelier von
-Housi Knecht in Gümligen besuchen, wo er seine bekannten
-Skulpturen herstellt. Nach dem Transfer ins Schlössli Rubigen
-gibt uns Housi Knecht einen Einblick in die Geschichte des
-Hauses und führt uns durch den Park mit seinen beeindruckenden Werken.
+The Sparklettes, wie man sie kennt und liebt: Ausgeklügelte Arrangements in schwindelerregender und atemberaubender
+A Cappella-Manier.
 
-Der Vorabend klingt bei einem Apéritif aus.
-
-Treffpunkt:
-16 Uhr, Atelier Housi Knecht, Dammweg 41, 3073 Muri
-(max. 25 Teilnehmende)
+Stimmen: Doris McVeigh, Isabelle Ritter, Nina Gutknecht, Xenia Zampieri
+(max. 75 Teilnehmende)

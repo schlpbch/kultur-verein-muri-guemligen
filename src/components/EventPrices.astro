@@ -9,7 +9,7 @@ const { prices } = Astro.props
     prices.map((price, index) => (
       <li>
         <Badge key={index} variant="secondary" className="w-fit">
-          {price.price}
+          {price}
         </Badge>
       </li>
     ))

@@ -5,7 +5,10 @@ const events = defineCollection({
   schema: () =>
     z.object({
       title: z.string(),
+      subtitle: z.string(),
       date: z.date(),
+      location: z.string(),
+      prices: z.array(z.number()),
     }),
 })
 

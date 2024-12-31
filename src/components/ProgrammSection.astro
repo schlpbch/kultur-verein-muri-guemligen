@@ -1,5 +1,7 @@
 ---
 import EventCard from './EventCard.astro'
+import { getCollection } from 'astro:content'
+const events = await getCollection('events')
 ---
 
 <section id="Programm" class="py-16">
@@ -12,12 +14,8 @@ import EventCard from './EventCard.astro'
     <p class="py-5 text-lg text-muted-foreground">
       Erleben Sie mit uns Livemusik und Kultur in Ihrer Nähe.
     </p>
-    <EventCard
-      title="Zia Lisa"
-      subtitle="Konzert"
-      date="Freitag 12. März 2025"
-      location="Muribad"
-      prices={[{ category: 'Erwachsene', price: 'Kollekte' }]}
-    />
+    <ul>
+      {events.map((event) => <EventCard event={event} />)}
+    </ul>
   </div>
 </section>
