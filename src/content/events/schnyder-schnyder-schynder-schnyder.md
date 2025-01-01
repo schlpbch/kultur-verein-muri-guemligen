@@ -17,4 +17,4 @@ Patrick Schnyder: Holzbläser, Gesang
 Emanuel Schnyder: Kontrabass, Gesang
 Dani Misteli: visuelle Projektionen
 (max. 75 Teilnehmende)
-CHF 30 / 38 / 15
+
