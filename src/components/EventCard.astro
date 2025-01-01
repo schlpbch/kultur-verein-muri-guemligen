@@ -1,5 +1,6 @@
 ---
 import { format } from 'date-fns'
+import { de } from 'date-fns/locale'
 import { Image } from 'astro:assets'
 import {
   Card,
@@ -37,10 +38,10 @@ const { title, subtitle, date, location, prices, cover, copyright } = event.data
 const { Content } = await event.render()
 ---
 
-<Card>
+<Card id="#{title}">
   <CardHeader>
     <CardDescription>
-      {date.toLocaleDateString('de-CH')}, ab {format(date, 'HH:mm')} &ndash;
+      {format(date, 'E, dd.mm.yyyy', {locale: de}) }, ab {format(date, 'HH:mm')} &ndash;
       {location}
     </CardDescription>
     <div class="pt-2">
@@ -49,18 +50,16 @@ const { Content } = await event.render()
     <h3 class="text-yellow-400">{subtitle}</h3>
   </CardHeader>
   <CardContent>
-    <span class="text-xs text-muted-foreground">
-      <Image
-        src={cover || defaultCover}
-        &width="300&height=200&class=mb-4"
-        w-full
-        alt={title}
-        width={300}
-        height={200}
-        class="mb-4 w-full rounded-lg object-cover shadow-lg"
-      />
+    <Image
+      src={cover || defaultCover}
+      alt={title}
+      width={300}
+      height={200}
+      class="mb-3 w-full rounded-lg object-cover shadow-md"
+    />
+    <div class="text-xs text-muted-foreground">
       &copy; {copyright}
-    </span>
+    </div>
     <div class="text-md space-y-2 pt-4 tracking-tight">
       <Content />
     </div>
