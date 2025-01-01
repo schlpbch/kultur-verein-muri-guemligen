@@ -4,11 +4,11 @@ import { Badge } from '@/components/ui/badge'
 const { prices } = Astro.props
 ---
 
-<div class="items-left flex flex-row gap-2 px-0 pt-3">
+<div class="items-left flex flex-row gap-1 px-0 pt-3">
   {
     prices.length > 0 && (
       <>
-        <h3 class="font-semibold">Preise:</h3>
+        <h3 class="font-semibold tracking-tight ">Preise:</h3>
         {prices.map((price, index) => (
           <Badge key={index} variant="outline">
             {price} CHF
