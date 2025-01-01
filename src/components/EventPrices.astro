@@ -3,15 +3,17 @@ import { Badge } from '@/components/ui/badge'
 
 const { prices } = Astro.props
 ---
-
-<ul class="flex flex-wrap gap-2">
-  {
-    prices.map((price, index) => (
-      <li>
-        <Badge key={index} variant="secondary" className="w-fit">
-          {price}
-        </Badge>
-      </li>
-    ))
-  }
-</ul>
+<div class="flex flex-row gap-2 pt-3 px-0 items-left">
+  {prices.length > 0 && (
+    <>
+      <h3 class="font-semibold">Preise:</h3>
+      {
+        prices.map((price, index) => (
+          <Badge key={index} variant="outline">
+            {price}
+          </Badge>
+        ))
+      }
+    </>
+  )}
+</div>

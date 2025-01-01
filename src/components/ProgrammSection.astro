@@ -2,9 +2,13 @@
 import EventCard from './EventCard.astro'
 import { getCollection } from 'astro:content'
 const events = await getCollection('events')
+
+const sortedEvents = events.sort((a, b) => {
+  return new Date(a.data.date) - new Date(b.data.date)
+})
 ---
 
-<section id="Programm" class="py-16">
+<section id="Programm" class="pt-16">
   <div class="container mx-auto px-4 md:px-6">
     <h2
       class="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl"
@@ -14,8 +18,8 @@ const events = await getCollection('events')
     <p class="py-5 text-lg text-muted-foreground">
       Erleben Sie mit uns Livemusik und Kultur in Ihrer Nähe.
     </p>
-    <ul>
-      {events.map((event) => <EventCard event={event} />)}
-    </ul>
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      {sortedEvents.map((event) => <EventCard event={event} />)}
+    </div>
   </div>
 </section>

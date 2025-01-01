@@ -1,4 +1,5 @@
 ---
+import { format } from 'date-fns'
 import { Image } from 'astro:assets'
 import {
   Card,
@@ -8,7 +9,6 @@ import {
   CardTitle,
   CardDescription,
 } from '@/components/ui/card'
-import { Badge } from '@/components/ui/badge'
 import eventImage from '../assets/images/zia-lisa.jpg'
 import EventPrices from './EventPrices.astro'
 
@@ -23,57 +23,49 @@ export interface Props {
         name: string
         price: number
       }[]
+      copyright: string
     }
-    render: () => Promise<{ default: any }>
+    render: () => Promise<Content>
   }
 }
 
 const { event } = Astro.props
 console.debug(event)
 
-const { title, subtitle, date, location, prices } = event.data
+const { title, subtitle, date, location, prices, copyright } = event.data
 
 const { Content } = await event.render()
 ---
 
 <Card>
-  <div class="flex flex-col items-center md:flex-row">
-    <div class="min-w-72 flex-1 space-y-4 align-top sm:min-w-96">
-      <CardHeader>
-        <div class="flex items-center gap-1">
-          <Badge variant="outline">
-            {date.toLocaleDateString()}
-          </Badge>
-          <Badge variant="outline">
-            {location}
-          </Badge>
-        </div>
-
-        <CardTitle>
-          {title}
-        </CardTitle>
-        <CardDescription>
-          {subtitle}
-        </CardDescription>
-
-        <Image
-          src={eventImage}
-          width={600}
-          alt="Zia Lisa"
-          layout="responsive"
-          class="rounded-sm shadow-lg"
-        />
-      </CardHeader>
+  <CardHeader>
+    <CardDescription>
+      {date.toLocaleDateString('de-CH')}, ab {format(date, 'HH:mm')} &ndash;
+      {location}
+    </CardDescription>
+    <div class="pt-2">
+      <CardTitle>{title}</CardTitle>
     </div>
-    <div>
-      <CardContent>
-        <div class="text-md space-y-3">
-          <Content />
-        </div>
-      </CardContent>
-      <CardFooter>
-        <EventPrices prices={prices} />
-      </CardFooter>
+    <h3 class="text-yellow-400">{subtitle}</h3>
+  </CardHeader>
+  <CardContent>
+    <span class="text-xs text-muted-foreground">
+      <Image
+        src={eventImage}
+        &width="300&height=200&class=mb-4"
+        w-full
+        alt={title}
+        width={300}
+        height={200}
+        class="mb-4 w-full rounded-lg object-cover"
+      />
+      &copy; {copyright}
+    </span>
+    <div class="text-md tracking-tight space-y-2 pt-4">
+      <Content/>
     </div>
-  </div>
+  </CardContent>
+  <CardFooter>
+    <EventPrices prices={prices} />
+  </CardFooter>
 </Card>
