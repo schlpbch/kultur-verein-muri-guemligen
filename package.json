@@ -23,6 +23,7 @@
     "astro": "^5.1.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "sharp": "^0.33.5",
