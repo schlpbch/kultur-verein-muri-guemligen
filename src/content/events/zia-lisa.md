@@ -4,6 +4,7 @@ subtitle: Kultur mach Freunde!- Live Musik im Quartier
 date: 2025-06-19T18:15:00
 location: Bärtschihus, Gümligen
 prices: []
+cover: './zia-lisa.jpg'
 copyright: Zia Lisa
 ---
 

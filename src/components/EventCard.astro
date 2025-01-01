@@ -9,7 +9,7 @@ import {
   CardTitle,
   CardDescription,
 } from '@/components/ui/card'
-import eventImage from '../assets/images/zia-lisa.jpg'
+import defaultCover from '../content/events/cover-photo-place-holder.svg'
 import EventPrices from './EventPrices.astro'
 
 export interface Props {
@@ -23,6 +23,7 @@ export interface Props {
         name: string
         price: number
       }[]
+      cover: string
       copyright: string
     }
     render: () => Promise<Content>
@@ -31,7 +32,7 @@ export interface Props {
 
 const { event } = Astro.props
 
-const { title, subtitle, date, location, prices, copyright } = event.data
+const { title, subtitle, date, location, prices, cover, copyright } = event.data
 
 const { Content } = await event.render()
 ---
@@ -50,18 +51,18 @@ const { Content } = await event.render()
   <CardContent>
     <span class="text-xs text-muted-foreground">
       <Image
-        src={eventImage}
+        src={cover || defaultCover}
         &width="300&height=200&class=mb-4"
         w-full
         alt={title}
         width={300}
         height={200}
-        class="mb-4 w-full rounded-lg object-cover"
+        class="mb-4 w-full rounded-lg object-cover shadow-lg"
       />
       &copy; {copyright}
     </span>
-    <div class="text-md tracking-tight space-y-2 pt-4">
-      <Content/>
+    <div class="text-md space-y-2 pt-4 tracking-tight">
+      <Content />
     </div>
   </CardContent>
   <CardFooter>

@@ -4,6 +4,7 @@ subtitle: Musikschule Muri-Gümligen
 date: 2025-03-16T20:00:00
 location: Villa Mettlen, Muri
 prices: [25, 35, 15]
+cover: './mettlen-konzerte.jpg'
 copyright: Musikschule Muri-Gümligen
 ---
 
