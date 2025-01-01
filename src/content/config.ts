@@ -9,6 +9,7 @@ const events = defineCollection({
       date: z.date(),
       location: z.string(),
       prices: z.array(z.number()),
+      copyright: z.string(),
     }),
 })
 
