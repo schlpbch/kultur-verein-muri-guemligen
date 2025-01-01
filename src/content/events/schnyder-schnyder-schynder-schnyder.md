@@ -4,6 +4,7 @@ subtitle: 'flüech u gebättt iu chräche vou schwige'
 date: 2025-10-07T20:00:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
+cover: './schnyder-schnyder-schnyder-schnyder.jpg'
 copyright: Flavia Marisa Schnyder
 ---
 
@@ -17,4 +18,3 @@ Patrick Schnyder: Holzbläser, Gesang
 Emanuel Schnyder: Kontrabass, Gesang
 Dani Misteli: visuelle Projektionen
 (max. 75 Teilnehmende)
-

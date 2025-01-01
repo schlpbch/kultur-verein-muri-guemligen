@@ -8,7 +8,7 @@ cover: './mettlen-konzerte.jpg'
 copyright: Musikschule Muri-Gümligen
 ---
 
-Die [Musikschule Muri-Gümligen](https://www.villamettlen.ch) organisiert mit den Mettlen-Konzerten eine aussergewöhnliche Konzertreihe. Im schmucken Barocksaal lassen wir die alte Tradition der Hausmusik aufleben und bieten auch dieses Jahr ein Programm erster Güte. Ein originelles, hochstehendes Konzertprogramm mit Engagement jüngerer Musiker mit Bezug zur Schweiz.
+Die [Musikschule Muri-Gümligen](https://www.villamettlen.ch) organisiert mit den Mettlen-Konzerten eine aussergewöhnliche Konzertreihe. Im schmucken Barocksaal lassen wir die alte Tradition der Hausmusik aufleben und bieten auch dieses Jahr ein Programm erster Güte.
 
 Lassen Sie sich von engagierten Künstlern, alle Preisträger nationaler und internationaler Wettbewerben, musikalisch verwöhnen!
 

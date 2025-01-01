@@ -3,7 +3,8 @@ title: Thoracker Sommerfest
 subtitle: Jung und Alt feiern gemeinsam
 date: 2025-08-30T14:00:00
 location: Bärtschihus, Gümligen
-prices: [30, 38, 15]
+prices: []
+cover: './thoracker-sommerfest.jpg'
 copyright: Thomas Balmer
 ---
 
