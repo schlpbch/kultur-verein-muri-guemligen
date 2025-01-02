@@ -14,5 +14,3 @@ Nach ersten unvergesslichen Konzerten haben sie ihr Duo-Konzept um bekannte Song
 Raritäten weiterentwickelt. Andreas Schaerer und Kalle Kalima setzen mit „21 Songs“ auf ergreifende Musik. Als Teenager geimpft mit der Musik von Pink Floyd und Led Zeppelin, verbinden sie die Irrungen und Wirrungen unseres neuen Jahrtausends mit dem kosmischen Herzschlag des Urknalls.
 
 Ein intensiver, emotionaler Sog erwartet das Publikum.
-
-(max. 75 Teilnehmende)

@@ -13,4 +13,3 @@ Vier Jazz-Sängerinnen sind auf Mission in der Tourismusbranche. Ob am Schwingfe
 The Sparklettes, wie man sie kennt und liebt: Ausgeklügelte Arrangements in schwindelerregender und atemberaubender A Cappella-Manier.
 
 Stimmen: Doris McVeigh, Isabelle Ritter, Nina Gutknecht, Xenia Zampieri
-(max. 75 Teilnehmende)

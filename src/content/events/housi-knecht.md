@@ -17,4 +17,3 @@ Der Vorabend klingt bei einem Apéritif aus.
 
 Treffpunkt:
 16 Uhr, Atelier Housi Knecht, Dammweg 41, 3073 Muri
-(max. 25 Teilnehmende)

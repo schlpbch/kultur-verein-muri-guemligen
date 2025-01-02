@@ -16,5 +16,3 @@ Christoph Schär: Oud, Stimme
 Roland Maibach: Kontrabass, Perkussion, Stimme
 
 Das Trio spielt Melodien von Komponisten aus dem orientalischen Raum sowie Eigenkompositionen. Musik für Kopfreisen und zum Träumen von einer friedlichen Welt. So klingt hörbar gemachte Stille und Ruhe, mit viel Raum zum Entdecken und Entspannen.
-
-(max. 50 Teilnehmende)
