@@ -3,23 +3,35 @@
   <p class="md-mt-0 col-span-8 mt-6 text-sm/6">
     Aktuelle Informationen zum Programm und Veranstaltungen.
   </p>
-  <form class="space-y-3 sm:flex">
-    <label for="email-address" class="sr-only">Email address</label>
-    <input
-      type="email"
-      name="email-address"
-      id="email-address"
-      autocomplete="email"
-      required
-      class="w-full min-w-0 rounded-md bg-white px-3 py-1.5 text-base outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-orange-600 sm:w-56 sm:text-sm/6"
-      placeholder="Ihre E-Mail-Adresse"
-    />
-    <div class="mt-4 sm:ml-4 sm:mt-0 sm:shrink-0">
-      <button
-        type="submit"
-        class="flex w-full items-center justify-center rounded-md bg-orange-700 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
-        >Abonnieren</button
-      >
+  <form
+    name="newsletter"
+    method="POST"
+    data-netlify="true"
+    data-netlify-honeypot="bot-field"
+    netlify
+  >
+    <div class="space-y-3 sm:flex">
+      <input type="hidden" name="form-name" value="contact" />
+      <p hidden>
+        Do not fill this out: <input name="bot-field" />
+      </p>
+      <label for="email-address" class="sr-only">Email address</label>
+      <input
+        type="email"
+        name="email-address"
+        id="email-address"
+        autocomplete="email"
+        required
+        class="w-full min-w-0 rounded-md bg-white px-3 py-1 text-base outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-orange-600 sm:w-56 sm:text-sm/6"
+        placeholder="Ihre E-Mail-Adresse"
+      />
+      <div class="mt-4 sm:ml-4 sm:mt-0 sm:shrink-0">
+        <button
+          type="submit"
+          class="flex w-full items-center justify-center rounded-md bg-orange-700 px-3 py-1 text-sm/6 text-white shadow-sm hover:bg-orange-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
+          >Abonnieren</button
+        >
+      </div>
     </div>
   </form>
 </div>

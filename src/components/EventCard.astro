@@ -13,7 +13,7 @@ import {
 import defaultCover from '../content/events/cover-photo-place-holder.svg'
 import EventPrices from './EventPrices.astro'
 
-export interface Props {
+interface Props {
   event: {
     data: {
       title: string
@@ -41,13 +41,13 @@ const { Content } = await event.render()
 <Card id="#{title}">
   <CardHeader>
     <CardDescription>
-      {format(date, 'E, dd.MMM', {locale: de}) }, ab {format(date, 'HH:mm')} &ndash;
+      {format(date, 'E, dd. MMMM', { locale: de })}, ab {format(date, 'HH:mm')} &ndash;
       {location}
     </CardDescription>
     <div class="pt-2">
       <CardTitle>{title}</CardTitle>
     </div>
-    <h3 class="text-yellow-400">{subtitle}</h3>
+    <h3 class="tracking-wide text-yellow-400">{subtitle}</h3>
   </CardHeader>
   <CardContent>
     <Image
@@ -60,7 +60,7 @@ const { Content } = await event.render()
     <div class="text-xs text-muted-foreground">
       &copy; {copyright}
     </div>
-    <div class="text-md space-y-2 pt-4 tracking-tight">
+    <div class="text-md leading-tighter space-y-2 pt-4 tracking-tight">
       <Content />
     </div>
   </CardContent>

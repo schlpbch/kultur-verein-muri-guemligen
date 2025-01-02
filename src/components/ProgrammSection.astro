@@ -18,7 +18,7 @@ const sortedEvents = events.sort((a, b) => {
     <p class="py-5 text-lg text-muted-foreground">
       Erleben Sie mit uns Livemusik und Kultur in Ihrer Nähe.
     </p>
-    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+    <div class="grid gap-3 gap-y-4 md:grid-cols-2 lg:grid-cols-3">
       {sortedEvents.map((event) => <EventCard event={event} />)}
     </div>
   </div>
