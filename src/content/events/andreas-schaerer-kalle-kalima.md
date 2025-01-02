@@ -4,6 +4,7 @@ subtitle: 21 Songs
 date: 2025-05-02T20:00:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
+cover: './andreas-schaerer-kalle-kalima.jpg'
 copyright: Gregor Hohenberg
 ---
 

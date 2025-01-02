@@ -4,6 +4,7 @@ subtitle: Helvetia Bockt!
 date: 2025-10-17T20:00:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
+cover: './the-sparklettes.jpg'
 copyright: Pia Neuenschwander
 ---
 
