@@ -1,3 +1,8 @@
+---
+import { Image } from 'astro:assets'
+import logoGerber from '../assets/images/logo-gerber.svg'
+---
+
 <section class="py-16">
   <div class="container mx-auto px-4 md:px-6">
     <h2
@@ -35,12 +40,8 @@
           />
         </a>
         <a href="https://www.gerberelektro.ch/">
-          <img
-            class="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
-            src="https://kulturverein-muri.ch/wp-content/uploads/logo_gerber.jpg"
-            alt="Gerber Elektro AG"
-            height="72"
-          />
+          <Image src={logoGerber} alt="Gerber Elektro AG" height="72"/>
+
         </a>
         <a href="https://www.mobiliar.ch/generalagenturen/bern-ost#standorte">
           <img
