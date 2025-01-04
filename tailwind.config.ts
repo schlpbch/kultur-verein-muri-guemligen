@@ -3,7 +3,7 @@ import { fontFamily } from 'tailwindcss/defaultTheme'
 
 const config = {
   darkMode: ['class'],
-  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,ts,tsx}'],
   prefix: '',
   theme: {
     container: {
@@ -15,6 +15,9 @@ const config = {
     },
     extend: {
       colors: {
+        'yellow-300': '#feca33',
+        'yellow-400': '#fbba00',
+        'orange-700': '#e43312',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
