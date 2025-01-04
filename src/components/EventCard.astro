@@ -47,14 +47,14 @@ const { Content } = await event.render()
     <div class="pt-2">
       <CardTitle>{title}</CardTitle>
     </div>
-    <h3 class="tracking-wide text-lg text-yellow-400">{subtitle}</h3>
+    <h3 class="text-lg tracking-wide text-yellow-400">{subtitle}</h3>
   </CardHeader>
   <CardContent>
     <Image
       src={cover || defaultCover}
       alt={title}
-      width={300}
-      height={200}
+      width={600}
+      height={400}
       class="mb-3 w-full rounded-md object-cover shadow-md"
     />
     <div class="text-xs text-muted-foreground">
