@@ -3,5 +3,5 @@
     ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
     ["cn\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
   ],
-  "cSpell.words": ["astrojs", "Shadcn"]
+  "cSpell.words": ["astrojs", "Gümligen", "Shadcn"]
 }
