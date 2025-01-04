@@ -1,7 +1,10 @@
 ---
 import { Image } from 'astro:assets'
-import loghChinoWorb from '../assets/images/logo-chino-worb.svg'
+import logoBärtschiHus from '../assets/images/logo-bärtschihus.jpg'
+import logoChinoWorb from '../assets/images/logo-chino-worb.svg'
 import logoGerber from '../assets/images/logo-gerber.svg'
+import logoMobiliar from '../assets/images/logo-mobiliar.svg'
+import logoVillaMettlen from '../assets/images/logo-villa-mettlen.png'
 ---
 
 <section class="py-16">
@@ -17,33 +20,43 @@ import logoGerber from '../assets/images/logo-gerber.svg'
         class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-4 gap-y-10 sm:max-w-xl sm:grid-cols-5 sm:gap-x-5 lg:mx-0 lg:max-w-none lg:grid-cols-5"
       >
         <a href="https://www.baertschihus.ch/">
-          <img
-            class="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
-            src="https://kulturverein-muri.ch/wp-content/uploads/baertschihus.png"
+          <Image
+            src={logoBärtschiHus}
             alt="Bärtschi Hus"
-            height="72"
+            height="90"
+            class="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
           />
         </a>
         <a href="https://www.villamettlen.ch/">
-          <img
+          <Image
+            src={logoVillaMettlen}
+            alt="Villa Mettlen"
+            height="90"
             class="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
-            src="https://kulturverein-muri.ch/wp-content/uploads/villamettlen.jpg"
-            alt="Reform"
-            height="72"
           />
         </a>
         <a href="https://www.chinoworb.ch/">
-          <Image src={loghChinoWorb} alt="Chino Worb" height="72" />
+          <Image
+            src={logoChinoWorb}
+            alt="Chino Worb"
+            height="90"
+            class="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
+          />
         </a>
         <a href="https://www.gerberelektro.ch/">
-          <Image src={logoGerber} alt="Gerber Elektro AG" height="72" />
+          <Image
+            src={logoGerber}
+            alt="Gerber Elektro AG"
+            height="90"
+            class="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
+          />
         </a>
         <a href="https://www.mobiliar.ch/generalagenturen/bern-ost#standorte">
-          <img
-            class="col-span-2 max-h-14 w-full object-contain sm:col-start-2 lg:col-span-1"
-            src="https://kulturverein-muri.ch/wp-content/uploads/die_mobiliar.jpg"
-            alt="die mobiliar"
-            height="72"
+          <Image
+            src={logoMobiliar}
+            alt="Mobiliar"
+            height="90"
+            class="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
           />
         </a>
       </div>
