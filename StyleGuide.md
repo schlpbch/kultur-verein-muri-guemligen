@@ -1,4 +1,4 @@
-# KuVe Daten
+# KuVe Style Guide
 
 - Schrift: Helvetica Neue (bold/regular)
 - Web: Inter

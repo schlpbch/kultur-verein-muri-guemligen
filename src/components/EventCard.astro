@@ -41,13 +41,13 @@ const { Content } = await event.render()
 <Card id="#{title}">
   <CardHeader>
     <CardDescription>
-      {format(date, 'E, dd. MMMM', { locale: de })}, ab {format(date, 'HH:mm')} &ndash;
+      {format(date, 'E dd. MMMM', { locale: de })}, {format(date, 'HH:mm')} &ndash;
       {location}
     </CardDescription>
     <div class="pt-2">
       <CardTitle>{title}</CardTitle>
     </div>
-    <h3 class="tracking-wide text-yellow-400">{subtitle}</h3>
+    <h3 class="tracking-wide text-lg text-yellow-400">{subtitle}</h3>
   </CardHeader>
   <CardContent>
     <Image
