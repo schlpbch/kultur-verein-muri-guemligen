@@ -1,5 +1,6 @@
 ---
 import { Image } from 'astro:assets'
+import loghChinoWorb from '../assets/images/logo-chino-worb.svg'
 import logoGerber from '../assets/images/logo-gerber.svg'
 ---
 
@@ -32,16 +33,10 @@ import logoGerber from '../assets/images/logo-gerber.svg'
           />
         </a>
         <a href="https://www.chinoworb.ch/">
-          <img
-            class="col-span-2 max-h-14 w-full object-contain lg:col-span-1"
-            src="https://kulturverein-muri.ch/wp-content/uploads/chinoworb.png"
-            alt="Chino Worb"
-            height="72"
-          />
+          <Image src={loghChinoWorb} alt="Chino Worb" height="72" />
         </a>
         <a href="https://www.gerberelektro.ch/">
-          <Image src={logoGerber} alt="Gerber Elektro AG" height="72"/>
-
+          <Image src={logoGerber} alt="Gerber Elektro AG" height="72" />
         </a>
         <a href="https://www.mobiliar.ch/generalagenturen/bern-ost#standorte">
           <img
