@@ -12,10 +12,10 @@ Die [Musikschule Muri-Gümligen](https://www.villamettlen.ch) organisiert mit de
 
 Lassen Sie sich von engagierten Künstlern, alle Preisträger nationaler und internationaler Wettbewerben, musikalisch verwöhnen!
 
-- 16. März: Klavier-Duo Roman & Oleksander Fediurko
-- 25. Mai: Samuel Niederhauser, Violoncello; Dominic Chamot, Klavier
-- 9. November: WS Ensemble f. Barockmusik: Jan Fuss, Blockflöte: Elena Abbati, Violine: Rebecca Krieg, Violoncello: Christian Velasco T. S. Flores, Cembalo
+<ul class="list-disc list-inside">
+ <li>16. März: Klavier-Duo Roman & Oleksander Fediurko.</li>
+ <li>25. Mai: Samuel Niederhauser, Violoncello; Dominic Chamot, Klavier.</li>
+ <li>9. November: Ensemble für Barockmusik: Jan Fuss, Blockflöte; Elena Abbati, Violine; Rebecca Krieg, Violoncello; Christian Velasco T. S. Flores, Cembalo.</li>
+</ul>
 
 www.villamettlen.ch, konzerte@villamettlen.ch, 031 951 23 83
-
-Die Konzerte werden vom Kulturverein Muri-Gümligen werbetechnisch unterstützt.

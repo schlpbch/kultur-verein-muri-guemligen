@@ -14,6 +14,4 @@ Zia Lisa entführt ins sonnige Italien und lässt uns hier von endlosem Sommer, 
 
 Mario Capitanio: Stimme, Gitarre, Markus Graf: Gitarre, Stimme, Michael Leuenberger: Kontrabass, Stimme.
 
-Open Air
-
-Freier Eintritt / Kollekte
+Open Air mit freiem Eintritt und Kollekte.
