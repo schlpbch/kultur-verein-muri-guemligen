@@ -2,7 +2,10 @@
     xmlns="http://www.w3.org/2000/svg">
     <style>
         path {
-        fill: #000;
+        fill: #fff;
+        }
+        rect {
+        fill: #fff;
         }
         stroke-width: 1px;
     </style>

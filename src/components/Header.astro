@@ -1,6 +1,7 @@
 ---
 import { Image } from 'astro:assets'
 import logoKulturvereinMuriGümligen from '../assets/images/logo-kulturverein-muri-gümligen.svg'
+import logoKulturvereinMuriGümligenDark from '../assets/images/logo-kulturverein-muri-gümligen-dark.svg'
 import ThemeToggle from '@/components/ThemeToggle.astro'
 ---
 
@@ -9,7 +10,15 @@ import ThemeToggle from '@/components/ThemeToggle.astro'
 >
   <div class="container flex items-center sm:justify-between">
     <div class="flex flex-1 items-center">
-      <a href="/" class="flex items-center space-x-2 pb-2 pt-2">
+      <a href="/" class="hidden items-center space-x-2 pb-2 pt-2 dark:block">
+        <Image
+          src={logoKulturvereinMuriGümligenDark}
+          alt="Kulturverein Muri-Gümligen"
+          height="30"
+          class="h-7"
+        />
+      </a>
+      <a href="/" class="flex items-center space-x-2 pb-2 pt-2 dark:hidden">
         <Image
           src={logoKulturvereinMuriGümligen}
           alt="Kulturverein Muri-Gümligen"
