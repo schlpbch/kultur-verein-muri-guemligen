@@ -2,6 +2,7 @@
 import { format } from 'date-fns'
 import { de } from 'date-fns/locale'
 import { Image } from 'astro:assets'
+import { Button } from '@/components/ui/button'
 import {
   Card,
   CardContent,
@@ -12,6 +13,7 @@ import {
 } from '@/components/ui/card'
 import defaultCover from '../content/events/cover-photo-place-holder.svg'
 import EventPrices from './EventPrices.astro'
+import EventActions from './EventActions.astro'
 
 interface Props {
   event: {
@@ -65,6 +67,9 @@ const { Content } = await event.render()
     </div>
   </CardContent>
   <CardFooter>
-    <EventPrices prices={prices} />
+    <div class="flex w-full items-center justify-stretch gap-5">
+      <EventPrices prices={prices} />
+      <EventActions event={event} />
+    </div>
   </CardFooter>
 </Card>
