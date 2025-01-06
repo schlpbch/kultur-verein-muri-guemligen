@@ -13,7 +13,7 @@ interface Props {
 }
 const { event } = Astro.props
 
-const§ createCalendarLink = (event) => {
+const createCalendarLink = (event) => {
   const title = encodeURIComponent(event.data.title)
   const location = encodeURIComponent(event.data.location)
   const description = encodeURIComponent(event.data.subtitle)
