@@ -58,7 +58,7 @@ const boardMembers: BoardMember[] = [
 ---
 
 <div
-  class="mx-auto grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3"
+  class="mx-auto grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
 >
   {
     boardMembers.map((member) => (
@@ -70,7 +70,7 @@ const boardMembers: BoardMember[] = [
               alt={member.name}
               width={200}
               height={300}
-              class="rounded-sm object-cover shadow-md grayscale"
+              class="object-cover shadow-md "
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </div>
