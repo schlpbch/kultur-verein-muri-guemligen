@@ -3,8 +3,13 @@ import '@/styles/globals.css'
 import '@/styles/fonts.css'
 
 interface Props {
-  title?: string | undefined
-  description?: string | undefined
+  title: string
+  description: string
+  author?: {
+    name: string
+    email: string
+  }
+  keywords?: string[]
   ogImage?: URL | undefined
 }
 
@@ -14,7 +19,7 @@ if (Astro.props.ogImage === undefined) {
   Astro.props.ogImage = new URL('og-image.png', canonicalURL)
 }
 
-const { title, description, ogImage } = Astro.props
+const { title, description, author, keywords, ogImage } = Astro.props
 ---
 
 <meta charset="utf-8" />
@@ -31,6 +36,9 @@ const { title, description, ogImage } = Astro.props
 <title>{title}</title>
 <meta name="title" content={title} />
 <meta name="description" content={description} />
+<meta name="author" content={author?.name} />
+<meta name="theme-color" content="#000000" />
+<meta name="keywords" content={keywords?.toLocaleString()} />
 
 <meta property="og:type" content="website" />
 <meta property="og:url" content={canonicalURL} />

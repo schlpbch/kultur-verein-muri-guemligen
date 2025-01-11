@@ -8,6 +8,15 @@
   },
   "private": true,
   "license": "MIT",
+  "keywords": [
+    "Kultur",
+    "Muri bei Gümligen",
+    "Kulturverein",
+    "Kulturverein Muri-Gümligen",
+    "Konzert",
+    "Theater",
+    "Event"
+  ],
   "scripts": {
     "build": "astro build",
     "dev": "astro dev",
@@ -41,5 +50,9 @@
     "prettier-plugin-tailwindcss": "^0.6.9",
     "typescript": "^5.7.3"
   },
-  "packageManager": "pnpm@9.15.3"
+  "packageManager": "pnpm@9.15.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schlpbch/kultur-verein-muri-guemligen"
+  }
 }

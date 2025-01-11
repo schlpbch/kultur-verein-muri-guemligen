@@ -6,15 +6,26 @@ import Header from '@/components/Header.astro'
 interface Props {
   title?: string | undefined
   description?: string | undefined
+  author?: {
+    name: string
+    email: string
+  }
+  keywords?: string[] | undefined
   ogImage?: URL | undefined
 }
 
-const { title, description, ogImage } = Astro.props
+const { title, description, author, keywords, ogImage } = Astro.props
 ---
 
 <html lang="de">
   <head>
-    <HeadSEO title={title} description={description} ogImage={ogImage} />
+    <HeadSEO
+      title={title}
+      description={description}
+      author={author}
+      keywords={keywords}
+      ogImage={ogImage}
+    />
   </head>
   <body class="min-h-screen bg-background font-sans antialiased">
     <div class="relative flex min-h-screen flex-col">

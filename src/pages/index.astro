@@ -1,7 +1,6 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro'
 import HeroSection from '../components/HeroSection.astro'
-import LoremIpsumSection from '../components/LoremIpsumSection.astro'
 import ProgrammSection from '../components/ProgrammSection.astro'
 import SponsorsSection from '../components/SponsorsSection.astro'
 ---
@@ -9,6 +8,16 @@ import SponsorsSection from '../components/SponsorsSection.astro'
 <BaseLayout
   title="Kulturverein Muri Gümligen"
   description="Home - Kulturverein Muri Gümligen."
+  author={{ name: 'Andreas Schlapbach', email: 'schlpbch@gmail.com' }}
+  keywords={[
+    'Kultur',
+    'Muri bei Gümligen',
+    'Kulturverein',
+    'Kulturverein Muri-Gümligen',
+    'Konzert',
+    'Theater',
+    'Event',
+  ]}
 >
   <article class="container mx-auto items-center gap-1 px-0 pb-8">
     <HeroSection />
