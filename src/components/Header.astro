@@ -7,7 +7,7 @@ import ThemeToggle from '@/components/ThemeToggle.astro'
 ---
 
 <header
-  class="z-60 sticky top-0 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
+  class="z-50 sticky top-0 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
 >
   <div class="container flex items-center sm:justify-between">
     <div class="flex flex-1 items-center">
@@ -32,17 +32,15 @@ import ThemeToggle from '@/components/ThemeToggle.astro'
       <nav class="flex items-center">
         <a
           href="/contact"
-          target="_blank"
-          rel="noreferrer"
-          class={buttonVariants({ variant: 'ghost' }) + '  sm:block hidden'}
+          rel="noopener"
+          class={buttonVariants({ variant: 'link' }) + '  sm:block hidden'}
         >
           Kontakt
         </a>
         <a
           href="/about"
-          target="_blank"
-          rel="noreferrer"
-          class={buttonVariants({ variant: 'ghost' }) + ' sm:block hidden'}
+          rel="noreferrer noopener"
+          class={buttonVariants({ variant: 'link' }) + ' sm:block hidden'}
         >
           Über uns
         </a>
