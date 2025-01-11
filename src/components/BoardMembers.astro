@@ -1,0 +1,85 @@
+---
+import { Image } from 'astro:assets'
+import { Card, CardContent, CardHeader } from '@/components/ui/card'
+
+interface BoardMember {
+  name: string
+  role: string
+  imageUrl: string
+}
+
+const boardMembers: BoardMember[] = [
+  {
+    name: 'Kaharin Stämpfli',
+    role: 'Präsidentin',
+    imageUrl: 'https://kulturverein-muri.ch/wp-content/uploads/sk_08.png',
+  },
+  {
+    name: 'Anna-Lisa Kirchhofer',
+    role: 'Vizepräsidentin\nRessort Klassik',
+    imageUrl: 'https://kulturverein-muri.ch/wp-content/uploads/ka.jpg',
+  },
+  {
+    name: 'Christoph Burger',
+    role: 'Finanzen',
+    imageUrl: 'https://kulturverein-muri.ch/wp-content/uploads/bc.png',
+  },
+  {
+    name: 'Philippe Candolfi',
+    role: 'Entwicklung',
+    imageUrl: 'https://kulturverein-muri.ch/wp-content/uploads/sk_08.png',
+  },
+  {
+    name: 'Yvonne Gempeler',
+    role: 'Kommunikation',
+    imageUrl: 'https://kulturverein-muri.ch/wp-content/uploads/gy.jpg',
+  },
+  {
+    name: 'Eloisa Hagen-Melo',
+    role: 'Mitgliederbetreuung',
+    imageUrl: 'https://kulturverein-muri.ch/wp-content/uploads/eh_12.jpg',
+  },
+  {
+    name: 'Barbara Jenzer',
+    role: 'Programmkoordination',
+    imageUrl: 'https://kulturverein-muri.ch/wp-content/uploads/bj.jpg',
+  },
+  {
+    name: 'Doris Lohner',
+    role: 'Administration',
+    imageUrl: 'https://kulturverein-muri.ch/wp-content/uploads/ld.png',
+  },
+  {
+    name: 'Christoph Widmer',
+    role: 'Vorverkauf',
+    imageUrl: 'https://kulturverein-muri.ch/wp-content/uploads/wc18.png',
+  },
+]
+---
+
+<div
+  class="mx-auto grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3"
+>
+  {
+    boardMembers.map((member) => (
+      <Card key={member.name} class="border-none shadow-none">
+        <CardContent class="space-y- flex flex-col items-start">
+          <div class="relative pt-4">
+            <Image
+              src={member.imageUrl}
+              alt={member.name}
+              width={200}
+              height={300}
+              class="rounded-sm object-cover shadow-md grayscale"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+          </div>
+        </CardContent>
+        <CardHeader>
+          <h3 class="text-md font-medium">{member.name}</h3>
+          <p class="whitespace-pre-line text-muted-foreground">{member.role}</p>
+        </CardHeader>
+      </Card>
+    ))
+  }
+</div>

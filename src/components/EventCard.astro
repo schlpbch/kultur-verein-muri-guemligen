@@ -2,7 +2,6 @@
 import { format } from 'date-fns'
 import { de } from 'date-fns/locale'
 import { Image } from 'astro:assets'
-import { Button } from '@/components/ui/button'
 import {
   Card,
   CardContent,
@@ -58,6 +57,7 @@ const { Content } = await event.render()
       width={600}
       height={400}
       class="mb-3 w-full rounded-md object-cover shadow-md"
+      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
     />
     <div class="text-xs text-muted-foreground">
       &copy; {copyright}
