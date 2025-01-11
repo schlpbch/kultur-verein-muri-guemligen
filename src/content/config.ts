@@ -12,7 +12,6 @@ const events = defineCollection({
       cover: image().optional(),
       copyright: z.string(),
       eventfrogUrl: z.string().optional(),
-
     }),
 })
 
