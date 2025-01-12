@@ -29,7 +29,12 @@ const createCalendarLink = (event) => {
   {
     event.data.eventfrogUrl && (
       <a href={event.data.eventfrogUrl}>
-        <Button variant="ghost" size="icon" alt="Ticket kaufen">
+        <Button
+          variant="ghost"
+          size="icon"
+          aria-label="Ticket kaufen"
+          alt="Ticket kaufen"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -55,7 +60,12 @@ const createCalendarLink = (event) => {
     )
   }
   <a href={createCalendarLink(event)}>
-    <Button variant="ghost" size="icon" alt="Zum Kalender hinzufügen">
+    <Button
+      variant="ghost"
+      size="icon"
+      aria-label="Zum Kalender hinzufügen"
+      alt="Zum Kalender hinzufügen"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
