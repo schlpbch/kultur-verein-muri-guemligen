@@ -15,15 +15,15 @@ const sortedEvents = events.sort((a, b) => {
     >
       Programm
     </h2>
-    <p class="py-5 text-lg text-muted-foreground">
+    <p class="text-md py-5">
       Erleben Sie mit uns Livemusik und Kultur in Ihrer Nähe.
     </p>
     <div class="grid gap-3 gap-y-4 md:grid-cols-2 lg:grid-cols-3">
       {sortedEvents.map((event) => <EventCard event={event} />)}
     </div>
-    <p class="pt-5 text-muted-foreground">
+    <p class="text-md pt-5">
       Hier finden Sie das gesamte
-      <a href="/Jahresprogramm-2025.pdf" class="text-yellow-400 hover:underline"
+      <a href="/Jahresprogramm-2025.pdf" class="font-bold hover:underline"
         >Programm 2025</a
       > zum Download.
     </p>
