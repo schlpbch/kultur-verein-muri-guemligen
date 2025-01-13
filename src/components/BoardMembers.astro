@@ -1,12 +1,7 @@
 ---
 import { Image } from 'astro:assets'
-import { Card, CardContent, CardHeader } from '@/components/ui/card'
-
-interface BoardMember {
-  name: string
-  role: string
-  imageUrl: string
-}
+import { Card, CardContent, CardHeader } from '@components/ui/card'
+import type { BoardMember } from 'types'
 
 const boardMembers: BoardMember[] = [
   {
@@ -70,7 +65,7 @@ const boardMembers: BoardMember[] = [
               alt={member.name}
               width={184}
               height={128}
-              class="object-cover shadow-md"
+              class="rounded-sm object-cover shadow-md"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </div>

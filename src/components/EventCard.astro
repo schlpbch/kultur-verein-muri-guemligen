@@ -9,7 +9,7 @@ import {
   CardFooter,
   CardTitle,
   CardDescription,
-} from '@/components/ui/card'
+} from '@components/ui/card'
 import defaultCover from '../content/events/cover-photo-place-holder.svg'
 import EventPrices from './EventPrices.astro'
 import EventActions from './EventActions.astro'
@@ -48,7 +48,9 @@ const { Content } = await event.render()
     <div class="pt-2">
       <CardTitle>{title}</CardTitle>
     </div>
-    <h3 class="text-lg font-semibold tracking-tight text-yellow-400">{subtitle}</h3>
+    <h3 class="text-lg font-semibold tracking-tight text-yellow-400">
+      {subtitle}
+    </h3>
   </CardHeader>
   <CardContent>
     <Image
@@ -56,7 +58,7 @@ const { Content } = await event.render()
       alt={title}
       width={600}
       height={400}
-      class="mb-3 w-full  object-cover rounded-md shadow-md"
+      class="mb-3 w-full rounded-md object-cover shadow-md"
       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
     />
     <div class="text-xs text-muted-foreground">

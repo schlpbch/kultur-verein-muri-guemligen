@@ -1,5 +1,5 @@
 ---
-import { Badge } from '@/components/ui/badge'
+import { Badge } from '@components/ui/badge'
 
 const { prices } = Astro.props
 ---
@@ -8,10 +8,8 @@ const { prices } = Astro.props
   {
     prices.length > 0 && (
       <>
-        {prices.map((price, index) => (
-          <Badge key={index} variant="outline">
-            {price} CHF
-          </Badge>
+        {prices.map((price: string) => (
+          <Badge variant="outline">{price} CHF</Badge>
         ))}
       </>
     )
