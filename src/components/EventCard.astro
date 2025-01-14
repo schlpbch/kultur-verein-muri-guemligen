@@ -39,7 +39,7 @@ const { title, subtitle, date, location, prices, cover, copyright } = event.data
 const { Content } = await event.render()
 ---
 
-<Card id="#{title}">
+<Card id={encodeURI(title)}>
   <CardHeader>
     <CardDescription>
       {format(date, 'E dd. MMMM', { locale: de })}, {format(date, 'HH:mm')} &ndash;
