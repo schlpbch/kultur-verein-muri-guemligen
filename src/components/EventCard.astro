@@ -45,10 +45,12 @@ const { Content } = await event.render()
       {format(date, 'E dd. MMMM', { locale: de })}, {format(date, 'HH:mm')} &ndash;
       {location}
     </CardDescription>
-    <div class="pt-3">
+    <div class="pt-4">
       <CardTitle>{title}</CardTitle>
     </div>
-    <h3 class="text-lg font-semibold tracking-tight leading-tight text-yellow-400">
+    <h3
+      class="text-lg font-semibold leading-tight tracking-tight text-yellow-400"
+    >
       {subtitle}
     </h3>
   </CardHeader>
