@@ -32,7 +32,7 @@ const createMailLink = (event) => {
   return `mailto:?subject=${subject}&body=${body}`
 }
 
-const createWhatsappLink = (event) => {
+const createWhatsAppLink = (event) => {
   const title = encodeURI(event.data.title)
   const text = encodeURI(
     'Interessanter Event vom Kulturverein Muri Gümligen: \n'
@@ -45,7 +45,7 @@ const createWhatsappLink = (event) => {
 
 <div class="flex">
   <a href={createMailLink(event)}>
-    <Button variant="ghost" size="icon" aria-label="Teilen">
+    <Button variant="ghost" size="icon" aria-label="Teilen per E-Mail">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
@@ -63,8 +63,8 @@ const createWhatsappLink = (event) => {
       </svg>
     </Button>
   </a>
-  <a href={createWhatsappLink(event)}>
-    <Button variant="ghost" size="icon" aria-label="Teilen">
+  <a href={createWhatsAppLink(event)}>
+    <Button variant="ghost" size="icon" aria-label="Teilen per WhatsApp">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="24"
