@@ -1,5 +1,6 @@
 ---
 import { Button } from '@components/ui/button'
+import { encode } from 'punycode'
 import type { EventData } from 'types'
 
 interface Props {
@@ -9,18 +10,80 @@ interface Props {
 }
 const { event } = Astro.props
 
-const createCalendarLink = (event) => {
-  const title = encodeURIComponent(event.data.title)
-  const location = encodeURIComponent(event.data.location)
-  const description = encodeURIComponent(event.data.subtitle)
-  const startDate = event.data.date.toISOString().replace(/-|:|\.\d+/g, '')
-  const endDate = event.data.date.toISOString().replace(/-|:|\.\d+/g, '')
+const currentUrl = encodeURI(
+  'https://kultur-verein-muri-guemligen.netlify.app/'
+)
 
-  return `https://www.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${startDate}/${endDate}&details=${description}&location=${location}`
+const createMailLink = (event) => {
+  const title = encodeURIComponent(event.data.title)
+  const subject = encodeURIComponent('Einladung zu ') + title
+  const url = currentUrl + '#' + encodeURIComponent(title)
+  console.log(url)
+
+  const body =
+    'Hallo!%0D%0A%0D%0AIch möchte dich zu folgender Veranstaltung vom Kulturverein Muri Gümligen einladen:' +
+    '%0D%0A%0D%0A' +
+    encodeURIComponent(url) +
+    '%0D%0A%0D%0A' +
+    'Viele Grüsse'
+
+  console.log(body)
+
+  return `mailto:?subject=${subject}&body=${body}`
+}
+
+const createWhatsappLink = (event) => {
+  const title = encodeURI(event.data.title)
+  const text = encodeURI(
+    'Interessanter Event vom Kulturverein Muri Gümligen: \n'
+  )
+  const url = currentUrl + encodeURIComponent('#') + encodeURIComponent(title)
+
+  return `https://wa.me/?text=${text}+${url}`
 }
 ---
 
 <div class="flex">
+  <a href={createMailLink(event)}>
+    <Button variant="ghost" size="icon" aria-label="Teilen">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+        <polyline points="3 7 12 13 21 7"></polyline>
+      </svg>
+    </Button>
+  </a>
+  <a href={createWhatsappLink(event)}>
+    <Button variant="ghost" size="icon" aria-label="Teilen">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
+        <path
+          d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1"
+        ></path>
+      </svg>
+    </Button>
+  </a>
   {
     event.data.eventfrogUrl && (
       <a href={event.data.eventfrogUrl}>
@@ -49,33 +112,4 @@ const createCalendarLink = (event) => {
       </a>
     )
   }
-  <a href={createCalendarLink(event)}>
-    <Button variant="ghost" size="icon" aria-label="Zum Kalender hinzufügen">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      >
-        <path d="M8,2L8,6"></path>
-        <path d="M16,2L16,6"></path>
-        <path
-          d="M21,6L21,20C21,21.104 20.104,22 19,22L5,22C3.896,22 3,21.104 3,20L3,6C3,4.896 3.896,4 5,4L19,4C20.104,4 21,4.896 21,6Z"
-        ></path>
-        <path d="M8,2L8,6"></path>
-        <path d="M16,2L16,6"></path>
-        <path
-          d="M21,6L21,20C21,21.104 20.104,22 19,22L5,22C3.896,22 3,21.104 3,20L3,6C3,4.896 3.896,4 5,4L19,4C20.104,4 21,4.896 21,6Z"
-        ></path>
-        <path d="M3,10L21,10"></path>
-        <path d="M8.937,15.981L15.026,15.959"></path>
-        <path d="M11.982,18.98L11.982,18.826L11.961,13"></path>
-      </svg>
-    </Button>
-  </a>
 </div>
