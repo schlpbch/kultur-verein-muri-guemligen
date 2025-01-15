@@ -1,5 +1,5 @@
 ---
-title: Gespräch mit Christine Brand
+title: Gespräch mit Autorin Christine Brand
 subtitle: Brand aktuell!
 date: 2025-06-02T19:30:00
 location: Bärtschihus, Gümligen
