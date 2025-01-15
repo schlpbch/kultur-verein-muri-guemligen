@@ -18,16 +18,13 @@ const createMailLink = (event) => {
   const title = encodeURIComponent(event.data.title)
   const subject = encodeURIComponent('Einladung zu ') + title
   const url = currentUrl + '#' + encodeURIComponent(title)
-  console.log(url)
-
+  
   const body =
     'Hallo!%0D%0A%0D%0AIch möchte dich zu folgender Veranstaltung vom Kulturverein Muri Gümligen einladen:' +
     '%0D%0A%0D%0A' +
     encodeURIComponent(url) +
     '%0D%0A%0D%0A' +
     'Viele Grüsse'
-
-  console.log(body)
 
   return `mailto:?subject=${subject}&body=${body}`
 }

@@ -6,7 +6,7 @@ location: Atelier Housi Knecht
 prices: [15, 20, 10]
 cover: './housi-knecht.jpg'
 copyright: Housi Knecht
-eventfrogUrl: https://eventfrog.ch/de/p/kunst-ausstellungen/ausstellung/housi-knecht-atelierbesuch-7279466765205108892.html
+eventfrogUrl: 'https://eventfrog.ch/de/p/kunst-ausstellungen/ausstellung/housi-knecht-atelierbesuch-7279466765205108892.html'
 ---
 
 Im Jahr 2013 hat der Berner Künstler Housi Knecht zusammen mit seiner Frau Barbara das Schlössli Rubigen übernommen und einen öffentlich zugänglichen Kunst- und Kulturpark
