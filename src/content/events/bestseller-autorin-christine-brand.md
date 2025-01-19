@@ -6,6 +6,7 @@ location: Bärtschihus, Gümligen
 prices: [10, 15, 5]
 cover: './bestseller-autorin-christine-brand.jpg'
 copyright: Christine Brand
+eventfrogUrl: 'https://eventfrog.ch/de/p/theater-buehne/lesungen/begegnung-mit-bestsellerautorin-christine-brand-7284204602026560718.html'
 ---
 
 Christine Brand gehört zu den erfolgreichsten Schweizer AutorInnen von Kriminalromanen. Sie liest aus ihrem neuen Buch «Vermisst – Der Fall Emily».

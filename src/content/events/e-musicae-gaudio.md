@@ -6,6 +6,7 @@ location: Ref. Kirche Muri
 prices: [30, 38, 15]
 cover: './e-musicae-gaudio.jpg'
 copyright: E Musicae Gaudio
+eventfrogUrl: 'https://eventfrog.ch/de/p/klassik-opern/klassik/e-musicae-gaudio-kammerensemble-7286355564992398655.html'
 ---
 
 E Musicae Gaudio = Aus Freude an der Musik
