@@ -3,53 +3,9 @@ import { Image } from 'astro:assets'
 import { Card, CardContent, CardHeader } from '@components/ui/card'
 import type { BoardMember } from 'types'
 
-const boardMembers: BoardMember[] = [
-  {
-    name: 'Kaharina Stampfli',
-    role: 'Präsidentin, Public Relations',
-    imageUrl: '/images/Katharina-Stampfli.png',
-  },
-  {
-    name: 'Anna-Lisa Kirchhofer',
-    role: 'Vizepräsidentin\nRessort Klassik',
-    imageUrl: '/images/Anna-Lisa-Kirchhofer.png',
-  },
-  {
-    name: 'Christoph Burger',
-    role: 'Finanzen',
-    imageUrl: '/images/Christoph-Burger.png',
-  },
-  {
-    name: 'Philippe Candolfi',
-    role: 'Event Entwicklung',
-    imageUrl: '/images/Philippe-Candolfi.png',
-  },
-  {
-    name: 'Yvonne Gempeler',
-    role: 'Kommunikation',
-    imageUrl: '/images/Yvonne-Gempeler.png',
-  },
-  {
-    name: 'Eloisa Hagen-Melo',
-    role: 'Mitgliederbetreuung',
-    imageUrl: '/images/Eloisa-Hagen-Melo.png',
-  },
-  {
-    name: 'Barbara Jenzer',
-    role: 'Programmkoordination',
-    imageUrl: '/images/Barbara-Jenzer.png',
-  },
-  {
-    name: 'Doris Lohner',
-    role: 'Administration',
-    imageUrl: '/images/Doris-Lohner.png',
-  },
-  {
-    name: 'Christoph Widmer',
-    role: 'Vorverkauf',
-    imageUrl: '/images/Christoph-Widmer.png',
-  },
-]
+import { getCollection } from 'astro:content'
+const boardMembers = await getCollection('boardMembers')
+
 ---
 
 <div
@@ -57,12 +13,12 @@ const boardMembers: BoardMember[] = [
 >
   {
     boardMembers.map((member) => (
-      <Card key={member.name} class="border-none shadow-none">
+      <Card key={member.data.name}>
         <CardContent>
           <div class="pt-4">
-            <Image
-              src={member.imageUrl}
-              alt={member.name}
+             <Image
+              src={member.data.portrait}
+              alt={member.data.name}
               width={184}
               height={128}
               class="mb-2 w-full rounded-sm object-cover shadow-md"
@@ -71,8 +27,8 @@ const boardMembers: BoardMember[] = [
           </div>
         </CardContent>
         <CardHeader>
-          <h3 class="text-md font-medium">{member.name}</h3>
-          <p class="whitespace-pre-line text-muted-foreground">{member.role}</p>
+          <h3 class="text-md font-medium">{member.data.name}</h3>
+          <p class="whitespace-pre-line text-muted-foreground">{member.data.role}</p>
         </CardHeader>
       </Card>
     ))

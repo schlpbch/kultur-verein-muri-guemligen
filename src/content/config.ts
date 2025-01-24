@@ -1,7 +1,7 @@
 import { defineCollection, z } from 'astro:content'
+import { file } from 'astro/loaders'
 
 const events = defineCollection({
-  type: 'content',
   schema: ({ image }) =>
     z.object({
       title: z.string(),
@@ -15,4 +15,14 @@ const events = defineCollection({
     }),
 })
 
-export const collections = { events }
+const boardMembers = defineCollection({
+  loader: file('src/content/boardMembers/board-members.json'),
+  schema: ({ image }) =>
+    z.object({
+      name: z.string(),
+      role: z.string(),
+      portrait: image(),
+    }),
+})
+
+export const collections = { events, boardMembers }
