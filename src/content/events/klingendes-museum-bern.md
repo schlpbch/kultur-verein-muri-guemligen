@@ -8,7 +8,7 @@ cover: './klingendes-museum-bern.jpg'
 copyright: Klingendes Museum Bern
 ---
 
-Das «Klingende Museum Bern» basiert auf der Blasinstrumentensammlung von Karl Burri aus Zimmerwald. Später kam die Sammlung der Firma Hirsbrunner aus Sumiswald dazu, sowie die Flötensammlung von Ueli Halder.
+Das [Klingende Museum Bern](https://www.museen-bern.ch/de/institutionen/museen/klingendes-museum) basiert auf der Blasinstrumentensammlung von Karl Burri aus Zimmerwald. Später kam die Sammlung der Firma Hirsbrunner aus Sumiswald dazu, sowie die Flötensammlung von Ueli Halder.
 
 Das Museum verfügt heute über eine bedeutende Sammlung von ca. 1600 historischen Blasinstrumenten und Trommeln aus über drei Jahrhunderten. Es handelt sich um eine der grössten und wichtigsten Sammlungen Europas. Viele Raritäten und auch Kuriositäten sind zu bewundern. Einige Instrumente können Sie gleich selber ausprobieren..
 

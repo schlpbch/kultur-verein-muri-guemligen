@@ -9,7 +9,7 @@ copyright: Christine Brand
 eventfrogUrl: 'https://eventfrog.ch/de/p/theater-buehne/lesungen/begegnung-mit-bestsellerautorin-christine-brand-7284204602026560718.html'
 ---
 
-Christine Brand gehört zu den erfolgreichsten Schweizer AutorInnen von Kriminalromanen. Sie liest aus ihrem neuen Buch «Vermisst – Der Fall Emily».
+[Christine Brand](https://christinebrand.ch) gehört zu den erfolgreichsten Schweizer AutorInnen von Kriminalromanen. Sie liest aus ihrem neuen Buch «Vermisst – Der Fall Emily».
 
 Darin verschwindet ein Mädchen vor vier Jahren am helllichten Tag von einem Spielplatz in Bern. Mehrere Spuren führen nach Frankreich. Die Kommissarin Malou Löwenberg macht schockierende Entdeckungen. Für Hochspannung ist gesorgt.
 

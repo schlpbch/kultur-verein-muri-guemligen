@@ -11,8 +11,4 @@ eventfrogUrl: 'https://www.villamettlen.ch/mettlen-konzerte/vorverkauf/'
 
 Die [Musikschule Muri-Gümligen](https://www.villamettlen.ch) organisiert mit den Mettlen-Konzerten eine aussergewöhnliche Konzertreihe. Im schmucken Barocksaal lassen wir die alte Tradition der Hausmusik aufleben und bieten auch dieses Jahr ein Programm erster Güte.
 
-Lassen Sie sich von engagierten Künstlern, alle Preisträger nationaler und internationaler Wettbewerben, musikalisch verwöhnen!
-
-Ensemble für Barockmusik: Jan Fuss, Blockflöte; Elena Abbati, Violine; Rebecca Krieg, Violoncello; Christian Velasco T. S. Flores, Cembalo.
-
-www.villamettlen.ch, konzerte@villamettlen.ch, 031 951 23 83
+Lassen Sie sich von Ensemble für Barockmusik (Jan Fuss, Blockflöte; Elena Abbati, Violine; Rebecca Krieg, Violoncello; Christian Velasco T. S. Flores, Cembalo) - alle Preisträger nationaler und internationaler Wettbewerben - musikalisch verwöhnen!

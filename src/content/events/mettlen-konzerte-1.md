@@ -11,8 +11,4 @@ eventfrogUrl: 'https://www.villamettlen.ch/mettlen-konzerte/vorverkauf/'
 
 Die [Musikschule Muri-Gümligen](https://www.villamettlen.ch) organisiert mit den Mettlen-Konzerten eine aussergewöhnliche Konzertreihe. Im schmucken Barocksaal lassen wir die alte Tradition der Hausmusik aufleben und bieten auch dieses Jahr ein Programm erster Güte.
 
-Lassen Sie sich von engagierten Künstlern, alle Preisträger nationaler und internationaler Wettbewerben, musikalisch verwöhnen!
-
-Klavier-Duo Roman & Oleksander Fediurko.
-
-www.villamettlen.ch, konzerte@villamettlen.ch, 031 951 23 83
+Lassen Sie sich vom Klavier-Duo Roman und Oleksander Fediurko - beide Preisträger nationaler und internationaler Wettbewerben - musikalisch verwöhnen!

@@ -74,4 +74,8 @@
     font-synthesis-weight: none;
     text-rendering: optimizeLegibility;
   }
+
+  p > a {
+    @apply underline decoration-2  underline-offset-2 hover:text-yellow-400;
+  }
 }

@@ -13,6 +13,6 @@ E Musicae Gaudio = Aus Freude an der Musik
 
 Wenn die 9 KünstlerInnen gemeinsam musizieren, übertragen sie dieses Motto im wahrsten Sinne des Wortes auf die Zuhörenden.
 
-Einige MusikerInnen des Kammerorchesters «E Musicae Gaudio» entschlossen sich, unter dem selben Namen ein Kammerensemble zu gründen. Seither konzertieren sie in dieser Formation erfolgreich in der Schweiz und in weiteren europäischen Städten. Ihr Repertoire bietet eine reiche Palette an Werken und Stilen aus verschiedenen Epochen.
+Einige MusikerInnen des Kammerorchesters [E Musicae Gaudio](https://www.emusicaegaudio.ch/) entschlossen sich, unter dem selben Namen ein Kammerensemble zu gründen. Seither konzertieren sie in dieser Formation erfolgreich in der Schweiz und in weiteren europäischen Städten. Ihr Repertoire bietet eine reiche Palette an Werken und Stilen aus verschiedenen Epochen.
 
 Freude an der Musik par excellence.
