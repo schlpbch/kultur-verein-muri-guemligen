@@ -10,15 +10,13 @@ interface Props {
 }
 const { event } = Astro.props
 
-const currentUrl = encodeURI(
-  'https://kultur-verein-muri-guemligen.netlify.app/'
-)
+const currentUrl = encodeURI('https://kulturverein-muri.ch/')
 
 const createMailLink = (event) => {
   const title = encodeURIComponent(event.data.title)
   const subject = encodeURIComponent('Einladung zu ') + title
   const url = currentUrl + '#' + encodeURIComponent(title)
-  
+
   const body =
     'Hallo!%0D%0A%0D%0AIch möchte dich zu folgender Veranstaltung vom Kulturverein Muri Gümligen einladen:' +
     '%0D%0A%0D%0A' +
