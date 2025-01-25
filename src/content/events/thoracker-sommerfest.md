@@ -12,5 +12,4 @@ Der Kulturverein Muri Gümligen, der [Thoracker Leist](https://www.thoracker-lei
 
 Einzelheiten folgen zu gegebener Zeit auf unserer Webseite und in der Presse.
 
-Open Air
-Freier Eintritt / Kollekte
+Open Air mit freier Eintritt und Kollekte.
