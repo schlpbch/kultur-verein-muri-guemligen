@@ -3,7 +3,7 @@ title: Klingendes Museum Bern
 subtitle: Sammlung historischer Blasinstrumente
 date: 2025-11-19T17:30:00
 location: Kramgassee 66, 3011 Bern
-prices: [30, 38, 15]
+prices: [30, 35, 15]
 cover: './klingendes-museum-bern.jpg'
 copyright: Klingendes Museum Bern
 ---
