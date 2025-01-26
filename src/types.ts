@@ -14,6 +14,6 @@ export type EventData = {
     price: number
   }
   eventfrogUrl?: string
-  cover: string
+  cover: ImageMetadata
   copyright: string
 }
