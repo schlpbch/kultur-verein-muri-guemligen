@@ -14,27 +14,20 @@ import defaultCover from '../content/events/cover-photo-place-holder.svg'
 import EventPrices from './EventPrices.astro'
 import EventActions from './EventActions.astro'
 
-interface Props {
-  event: {
-    data: {
-      title: string
-      subtitle: string
-      date: Date
-      location: string
-      prices: {
-        name: string
-        price: number
-      }[]
-      cover: string
-      copyright: string
-    }
-    render: () => Promise<Content>
-  }
-}
+import type { EventData } from 'types'
 
 const { event } = Astro.props
 
-const { title, subtitle, date, location, prices, cover, copyright } = event.data
+const {
+  title,
+  subtitle,
+  date,
+  location,
+  prices,
+  eventfrogUrl,
+  cover,
+  copyright,
+}: EventData = event.data
 
 const { Content } = await event.render()
 ---
@@ -55,17 +48,38 @@ const { Content } = await event.render()
     </h3>
   </CardHeader>
   <CardContent>
-    <Image
-      src={cover || defaultCover}
-      alt={title}
-      width={600}
-      height={400}
-      class="mb-3 w-full rounded-md object-cover shadow-md"
-      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-    />
+    {
+      eventfrogUrl ? (
+        <a type="button" href={eventfrogUrl} target="_blank" rel="noopener">
+          <div class="container">
+            <Image
+              src={cover || defaultCover}
+              alt={title}
+              width={600}
+              height={400}
+              class="mb-3 w-full rounded-md object-cover shadow-md"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+            <div class="middle">
+              <div class="text">Event reservieren</div>
+            </div>
+          </div>
+        </a>
+      ) : (
+        <Image
+          src={cover || defaultCover}
+          alt={title}
+          width={600}
+          height={400}
+          class="mb-3 w-full rounded-md object-cover shadow-md"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        />
+      )
+    }
     <div class="text-xs text-muted-foreground">
       &copy; {copyright}
     </div>
+
     <div class="text-md leading-tighter space-y-2 pt-4 tracking-tight">
       <Content />
     </div>
@@ -77,3 +91,46 @@ const { Content } = await event.render()
     </div>
   </CardFooter>
 </Card>
+
+<style>
+  .container {
+    position: relative;
+    width: 100%;
+    padding: 0;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+
+    backface-visibility: hidden;
+  }
+
+  .middle {
+    transition: 0.5s ease;
+    transition-delay: 1000ms;
+    opacity: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container:hover .image {
+    opacity: 0.3;
+  }
+
+  .container:hover .middle {
+    opacity: 1;
+  }
+
+  .text {
+    color: white;
+    font-size: small;
+  }
+</style>
