@@ -2,7 +2,7 @@
 title: Thoracker Sommerfest
 subtitle: Jung und Alt feiern gemeinsam
 date: 2025-08-30T14:00:00
-location: Bärtschihus, Gümligen
+location: Thoracker, Muri bei Bern
 prices: []
 cover: './thoracker-sommerfest.jpg'
 copyright: Thomas Balmer

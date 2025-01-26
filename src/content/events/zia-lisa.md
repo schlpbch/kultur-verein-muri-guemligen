@@ -2,7 +2,7 @@
 title: Zia Lisa
 subtitle: Kultur macht Freunde! Live Musik im Quartier
 date: 2025-06-19T18:15:00
-location: Bärtschihus, Gümligen
+location: Aarebad, Muri bei Bern
 prices: []
 cover: './zia-lisa.jpg'
 copyright: Zia Lisa
