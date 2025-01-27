@@ -12,4 +12,3 @@ Die vier [Schnyders](https://www.willyschnyder.ch/projekte/schnyderschnyder/) br
 
 Die Vertonungen von Willy Schnyder verstärken die poetische Brillanz der lautmalerischen Texte von Ernst Eggimann.
 Mit dem Einbezug einer Konzert-Dramaturgie und Bildern des Künstlers Dani Misteli, verstärkt sich beim Publikum die Wirkung von Musik und Text. Mit Projektionen auf die Bühne verschmelzen Musik, Texte und Bilder zu einer berührenden Einheit.
-

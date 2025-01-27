@@ -30,7 +30,7 @@ const createMailLink = (event) => {
 const createWhatsAppLink = (event) => {
   const title = encodeURI(event.data.title)
   const text = encodeURI(
-    'Interessanter Event vom Kulturverein Muri Gümligen: \n'
+    'Interessanter Event vom Kulturverein Muri Gümligen: \n',
   )
   const url = currentUrl + encodeURIComponent('#') + encodeURIComponent(title)
 

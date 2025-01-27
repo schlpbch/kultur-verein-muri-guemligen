@@ -5,7 +5,6 @@ import type { BoardMember } from 'types'
 
 import { getCollection } from 'astro:content'
 const boardMembers = await getCollection('boardMembers')
-
 ---
 
 <div
@@ -16,7 +15,7 @@ const boardMembers = await getCollection('boardMembers')
       <Card key={member.data.name}>
         <CardContent>
           <div class="pt-4">
-             <Image
+            <Image
               src={member.data.portrait}
               alt={member.data.name}
               width={184}
@@ -28,7 +27,9 @@ const boardMembers = await getCollection('boardMembers')
         </CardContent>
         <CardHeader>
           <h3 class="text-md font-medium">{member.data.name}</h3>
-          <p class="whitespace-pre-line text-muted-foreground">{member.data.role}</p>
+          <p class="whitespace-pre-line text-muted-foreground">
+            {member.data.role}
+          </p>
         </CardHeader>
       </Card>
     ))
