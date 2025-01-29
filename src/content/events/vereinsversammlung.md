@@ -1,7 +1,7 @@
 ---
 title: Vereinsversammlung
 subtitle: 26. Vereinsversammlung
-date: 2025-03-12T19:30:00
+date: 2025-03-19T19:30:00
 location: Bärtschihus, Gümligen
 prices: []
 cover: './vereinsversammlung.jpg'
