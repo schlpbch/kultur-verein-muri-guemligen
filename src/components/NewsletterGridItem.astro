@@ -1,65 +1,11 @@
+---
+import NewsletterSubscriptionForm from './NewsletterSubscriptionForm.astro'
+---
+
 <div class="col-span-2 mt-10">
   <h3 class="text-md/6 font-semibold">Abonnieren Sie unseren Newsletter</h3>
   <p class="md-mt-0 col-span-8 mt-6 text-sm/6">
     Aktuelle Informationen zum Programm und Veranstaltungen.
   </p>
-  <form
-    name="newsletter"
-    method="POST"
-    data-netlify="true"
-    data-netlify-honeypot="bot-field"
-    netlify
-  >
-    <div class="py-2">
-      <input type="hidden" name="form-name" value="newsletter" />
-      <p hidden>
-        Do not fill this out: <input name="bot-field" />
-      </p>
-      <div class="grid grid-cols-1 gap-2 md:grid-cols-2">
-        <div class="space-y-0">
-          <label for="first-name" class="sr-only block">First Name</label>
-          <input
-            type="text"
-            name="first-name"
-            id="first-name"
-            autocomplete="given-name"
-            required
-            class="w-11/12 min-w-0 rounded-sm bg-white px-3 py-1 text-base outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-orange-600"
-            placeholder="Ihr Vorname"
-          />
-        </div>
-        <div class="space-y-0">
-          <label for="last-name" class="sr-only block">Last Name</label>
-          <input
-            type="text"
-            name="last-name"
-            id="last-name"
-            autocomplete="family-name"
-            required
-            class="w-11/12 min-w-0 rounded-sm bg-white px-3 py-1 text-base outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-orange-600"
-            placeholder="Ihr Nachname"
-          />
-        </div>
-        <div class="space-y-0">
-          <label for="email-address" class="sr-only block">Email Address</label>
-          <input
-            type="email"
-            name="email-address"
-            id="email-address"
-            autocomplete="email"
-            required
-            class="w-11/12 min-w-0 rounded-sm bg-white px-3 py-1 text-base outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-orange-600"
-            placeholder="Ihre E-Mail-Adresse"
-          />
-        </div>
-        <div class="space-y-0">
-          <button
-            type="submit"
-            class="items-center justify-center rounded-none bg-orange-700 px-3 py-1 text-base text-sm/6 text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
-            >Abonnieren</button
-          >
-        </div>
-      </div>
-    </div>
-  </form>
+  <NewsletterSubscriptionForm />
 </div>
