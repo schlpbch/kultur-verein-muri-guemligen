@@ -10,27 +10,55 @@
     data-netlify-honeypot="bot-field"
     netlify
   >
-    <div class="space-y-3 sm:flex">
+    <div class="py-2">
       <input type="hidden" name="form-name" value="newsletter" />
       <p hidden>
         Do not fill this out: <input name="bot-field" />
       </p>
-      <label for="email-address" class="sr-only">Email address</label>
-      <input
-        type="email"
-        name="email-address"
-        id="email-address"
-        autocomplete="email"
-        required
-        class="w-full min-w-0 rounded-sm bg-white px-3 py-1 text-base outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-orange-600 sm:w-56 sm:text-sm/6"
-        placeholder="Ihre E-Mail-Adresse"
-      />
-      <div class="mt-4 sm:ml-4 sm:mt-0 sm:shrink-0">
-        <button
-          type="submit"
-          class="flex w-full items-center justify-center rounded-none bg-orange-700 px-3 py-1 text-sm/6 text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
-          >Abonnieren</button
-        >
+      <div class="grid grid-cols-1 gap-2 md:grid-cols-2">
+        <div class="space-y-0">
+          <label for="first-name" class="sr-only block">Vorname</label>
+          <input
+            type="text"
+            name="first-name"
+            id="first-name"
+            autocomplete="given-name"
+            required
+            class="w-11/12 min-w-0 rounded-sm bg-white px-3 py-1 text-base text-sm/6 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-orange-600"
+            placeholder="Ihr Vorname"
+          />
+        </div>
+        <div class="space-y-0">
+          <label for="last-name" class="sr-only block">Nachname</label>
+          <input
+            type="text"
+            name="last-name"
+            id="last-name"
+            autocomplete="family-name"
+            required
+            class="w-11/12 min-w-0 rounded-sm bg-white px-3 py-1 text-base text-sm/6 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-orange-600"
+            placeholder="Ihr Nachname"
+          />
+        </div>
+        <div class="space-y-0">
+          <label for="email-address" class="sr-only block">Email address</label>
+          <input
+            type="email"
+            name="email-address"
+            id="email-address"
+            autocomplete="email"
+            required
+            class="w-11/12 min-w-0 rounded-sm bg-white px-3 py-1 text-base text-sm/6 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-500 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-orange-600"
+            placeholder="Ihre E-Mail-Adresse"
+          />
+        </div>
+        <div class="space-y-0">
+          <button
+            type="submit"
+            class="items-center justify-center rounded-none bg-orange-700 px-3 py-1 text-base text-sm/6 text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
+            >Abonnieren</button
+          >
+        </div>
       </div>
     </div>
   </form>
