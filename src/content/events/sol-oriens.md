@@ -6,6 +6,7 @@ location: Benela's, Gümligen
 prices: [20, 25, 15]
 cover: './sol-oriens.jpg'
 copyright: Sol Oriens
+eventfrogUrl: https://eventfrog.ch/de/p/konzert/world-ethno/sol-oriens-7289230549993940983.html
 ---
 
 Musik zum Träumen in der Vorweihnachtszeit im Benela’s vor dem knisternden Cheminéefeuer. Gäste, die sich auch noch kulinarisch in den Orient begeben möchten, können sich ab 18 Uhr mit Mezzeplättchen verwöhnen lassen.

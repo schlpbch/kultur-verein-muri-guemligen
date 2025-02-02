@@ -6,6 +6,7 @@ location: Kramgassee 66, 3011 Bern
 prices: [30, 35, 15]
 cover: './klingendes-museum-bern.jpg'
 copyright: Klingendes Museum Bern
+eventfrogUrl: 'https://eventfrog.ch/de/p/fuehrungen-vortraege/fuehrung/klingendes-museum-bern-7289224908009137989.html'
 ---
 
 Das [Klingende Museum Bern](https://www.museen-bern.ch/de/institutionen/museen/klingendes-museum) basiert auf der Blasinstrumentensammlung von Karl Burri aus Zimmerwald. Später kam die Sammlung der Firma Hirsbrunner aus Sumiswald dazu, sowie die Flötensammlung von Ueli Halder.
