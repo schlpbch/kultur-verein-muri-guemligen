@@ -88,8 +88,8 @@ const today = new Date()
     )
   }
   {
-    event.data.date > today && event.data.eventfrogUrl && (
-      <a href={event.data.eventfrogUrl}>
+    event.data.date > today && event.data.reservationURL && (
+      <a href={event.data.reservationURL}>
         <Button variant="ghost" size="icon" aria-label="Ticket kaufen">
           <svg
             xmlns="http://www.w3.org/2000/svg"

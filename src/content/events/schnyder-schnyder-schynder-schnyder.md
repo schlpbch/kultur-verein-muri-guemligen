@@ -6,7 +6,7 @@ location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
 cover: './schnyder-schnyder-schnyder-schnyder.jpg'
 copyright: Flavia Marisa Schnyder
-eventfrogUrl: 'https://eventfrog.ch/de/p/konzert/weitere-musikrichtungen/schnyder-schnyder-schnyder-schnyder-7289217299701104520.html'
+reservationURL: 'https://eventfrog.ch/de/p/konzert/weitere-musikrichtungen/schnyder-schnyder-schnyder-schnyder-7289217299701104520.html'
 ---
 
 Die vier [Schnyders](https://www.willyschnyder.ch/projekte/schnyderschnyder/) bringen eine weitere visuell-musikalische Performance auf die Bühne.

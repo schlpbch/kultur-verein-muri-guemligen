@@ -24,7 +24,7 @@ const {
   date,
   location,
   prices,
-  eventfrogUrl,
+  reservationURL,
   cover,
   copyright,
 }: EventData = event.data
@@ -49,8 +49,8 @@ const { Content } = await event.render()
   </CardHeader>
   <CardContent>
     {
-      eventfrogUrl ? (
-        <a type="button" href={eventfrogUrl} target="_blank" rel="noopener">
+      reservationURL ? (
+        <a type="button" href={reservationURL} target="_blank" rel="noopener">
           <div class="container">
             <Image
               src={cover || defaultCover}
