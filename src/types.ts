@@ -13,7 +13,7 @@ export type EventData = {
     name: string
     price: number
   }
-  eventfrogUrl?: string
+  reservationURL?: string
   cover: ImageMetadata
   copyright: string
 }
