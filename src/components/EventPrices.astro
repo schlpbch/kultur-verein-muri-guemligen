@@ -1,12 +1,14 @@
 ---
 import { Badge } from '@components/ui/badge'
 
-const { prices } = Astro.props
+const { date, prices } = Astro.props
+
+const today = new Date()
 ---
 
 <div class="flex items-center gap-1">
   {
-    prices.length > 0 && (
+    date > today && prices.length > 0 && (
       <>
         {prices.map((price: string) => (
           <Badge variant="outline">{price} CHF</Badge>

@@ -30,57 +30,65 @@ const createMailLink = (event) => {
 const createWhatsAppLink = (event) => {
   const title = encodeURI(event.data.title)
   const text = encodeURI(
-    'Interessanter Event vom Kulturverein Muri Gümligen: \n',
+    'Interessanter Event vom Kulturverein Muri Gümligen: \n'
   )
   const url = currentUrl + encodeURIComponent('#') + encodeURIComponent(title)
 
   return `https://wa.me/?text=${text}+${url}`
 }
+
+const today = new Date()
 ---
 
 <div class="flex">
-  <a href={createMailLink(event)}>
-    <Button variant="ghost" size="icon" aria-label="Teilen per E-Mail">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      >
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-        <rect x="3" y="5" width="18" height="14" rx="2"></rect>
-        <polyline points="3 7 12 13 21 7"></polyline>
-      </svg>
-    </Button>
-  </a>
-  <a href={createWhatsAppLink(event)}>
-    <Button variant="ghost" size="icon" aria-label="Teilen per WhatsApp">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      >
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-        <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
-        <path
-          d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1"
-        ></path>
-      </svg>
-    </Button>
-  </a>
   {
-    event.data.eventfrogUrl && (
+    event.data.date > today && (
+      <a href={createMailLink(event)}>
+        <Button variant="ghost" size="icon" aria-label="Teilen per E-Mail">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <rect x="3" y="5" width="18" height="14" rx="2" />
+            <polyline points="3 7 12 13 21 7" />
+          </svg>
+        </Button>
+      </a>
+    )
+  }
+  {
+    event.data.date > today && (
+      <a href={createWhatsAppLink(event)}>
+        <Button variant="ghost" size="icon" aria-label="Teilen per WhatsApp">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+            <path d="M9 10a0.5 .5 0 0 0 1 0v-1a0.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a0.5 .5 0 0 0 0 -1h-1a0.5 .5 0 0 0 0 1" />
+          </svg>
+        </Button>
+      </a>
+    )
+  }
+  {
+    event.data.date > today && event.data.eventfrogUrl && (
       <a href={event.data.eventfrogUrl}>
         <Button variant="ghost" size="icon" aria-label="Ticket kaufen">
           <svg
