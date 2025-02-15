@@ -1,0 +1,9 @@
+---
+import EventCard from './EventCard.astro'
+
+const { events } = Astro.props
+---
+
+<div class="grid gap-3 gap-y-4 md:grid-cols-2 lg:grid-cols-3">
+  {events.map((event) => <EventCard event={event} />)}
+</div>

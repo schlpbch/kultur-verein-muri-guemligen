@@ -1,11 +1,11 @@
 ---
-import EventCard from './EventCard.astro'
+import { filterFutureEvents, sortEventsByDate } from '@lib/utils'
 import { getCollection } from 'astro:content'
-const events = await getCollection('events')
+import EventsGrid from './EventsGrid.astro'
 
-const sortedEvents = events.sort((a, b) => {
-  return new Date(a.data.date) - new Date(b.data.date)
-})
+const events = await getCollection('events')
+const futureEvents = await filterFutureEvents(events)
+const sortedEvents = await sortEventsByDate(futureEvents)
 ---
 
 <section id="Programm" class="pt-16">
@@ -18,9 +18,7 @@ const sortedEvents = events.sort((a, b) => {
     <p class="text-md py-5">
       Erleben Sie mit uns Livemusik und Kultur in Muri Gümligen.
     </p>
-    <div class="grid gap-3 gap-y-4 md:grid-cols-2 lg:grid-cols-3">
-      {sortedEvents.map((event) => <EventCard event={event} />)}
-    </div>
+    <EventsGrid events={sortedEvents} />
     <p class="text-md pt-5">
       Hier finden Sie das gesamte
       <a href="/Jahresprogramm-2025.pdf" class="font-bold hover:underline"
