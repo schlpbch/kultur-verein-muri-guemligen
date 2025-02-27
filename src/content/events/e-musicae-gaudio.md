@@ -1,7 +1,7 @@
 ---
 title: E Musicae Gaudio
 subtitle: Kammermusik Ensemble
-date: 2025-08-30T19:30:00
+date: 2025-09-20T19:30:00
 location: Ref. Kirche Muri
 prices: [30, 38, 15]
 cover: './e-musicae-gaudio.jpg'
