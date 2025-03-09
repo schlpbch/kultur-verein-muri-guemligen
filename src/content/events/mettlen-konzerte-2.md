@@ -1,7 +1,7 @@
 ---
 title: Mettlen-Konzerte
 subtitle: Duo Violoncello & Klavier
-date: 2025-05-25T20:00:00
+date: 2025-05-25T17:00:00
 location: Villa Mettlen, Muri
 prices: [25, 35, 15]
 cover: './mettlen-konzerte.jpg'

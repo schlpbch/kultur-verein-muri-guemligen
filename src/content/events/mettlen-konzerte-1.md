@@ -1,7 +1,7 @@
 ---
 title: Mettlen-Konzerte
 subtitle: Klavier-Duo Roman & Oleksander Fediurko
-date: 2025-03-16T20:00:00
+date: 2025-03-16T17:00:00
 location: Villa Mettlen, Muri
 prices: [25, 35, 15]
 cover: './mettlen-konzerte.jpg'
