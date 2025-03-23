@@ -12,4 +12,4 @@ Der Vorstand lädt Sie herzlich zur 26. Vereinsversammlung für das Jahr 2024 ei
 
 Jan Köbeli, Gemeindepräsident von Muri bei Bern, wird sich mit einem Grusswort und Überlegungen zur Kultur in der Gemeinde an uns richten.
 
-Musikalische Begleitung werden wir von Markus Graf und Markus Küng. Beim abschliessenden Aperitif ergibt sich die Gelegenheit zum Austausch. Der Vorstand dankt für Ihre Treue und freut sich auf die gemeinsamen Stunden mit Ihnen.
+Musikalische Begleitung werden wir von Markus Graf und Markus Küng. Beim abschliessenden Aperitif ergibt sich die Gelegenheit zum Austausch. Der Vorstand dankt für Ihre Treue.

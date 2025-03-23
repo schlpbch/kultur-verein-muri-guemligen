@@ -13,6 +13,6 @@ Der preisgekrönte Jazzsänger [Andreas Schaerer](https://andreasschaerer.com/) 
 
 Nach ersten unvergesslichen Konzerten haben sie ihr Duo-Konzept um bekannte Songs, eigenwillige Originale und Raritäten weiterentwickelt. Als Teenager hingerissen von der Musik von Pink Floyd und Led Zeppelin, verbinden sie die Irrungen und Wirrungen unseres neuen Jahrtausends mit dem kosmischen Herzschlag des Urknalls.
 
-Konzerteinführung und Gespräch mit den zwei Künstlern von 17:00-18:30 Uhr im Bärtschihus. Das Bistro ist anschliessend zum Imbiss vor dem Konzert geöffnet.
+Konzerteinführung und Gespräch mit den zwei Künstlern von 17:00 bis 18:30 Uhr im Bärtschihus. Das Bistro ist anschliessend zum Imbiss vor dem Konzert geöffnet.
 
 Dieses Projekt wird unterstützt durch den [BEKB Förderfonds](https://www.bekb.ch/die-bekb/engagement/bekb-foerderfonds).
