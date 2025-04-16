@@ -46,11 +46,5 @@
     "name": "Doris Lohner",
     "role": "Administration",
     "portrait": "./Doris-Lohner.png"
-  },
-  {
-    "id": 8,
-    "name": "Christoph Widmer",
-    "role": "Vorverkauf",
-    "portrait": "./Christoph-Widmer.png"
   }
 ]
