@@ -1,8 +1,8 @@
 ---
 title: Sol Oriens
 subtitle: Orientalische Kammermusik
-date: 2025-12-06T20:00:00
-location: Benela's, Gümligen
+date: 2025-12-06T19:30:00
+location: Benela's Kaffee & Bar, Gümligen
 prices: [20, 25, 15]
 cover: './sol-oriens.jpg'
 copyright: Sol Oriens
