@@ -14,4 +14,3 @@ Darin verschwindet ein Mädchen vor vier Jahren am helllichten Tag von einem Spi
 
 Nach der Lesung folgen erfrischende Getränke und angeregte Gespräche. Die Moderatorin Maja Mores, ehemalige Bibliothekarin in Muri Gümligen, führt durch den Abend und fühlt der Erzählerin auf den Zahn. Gemeinsamer Anlass mit der Bibliothek Muri-Gümligen.
 
-_Der Event ist ausverkauft._
