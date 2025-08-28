@@ -1,7 +1,7 @@
 ---
 title: Mettlen-Konzerte
 subtitle: Ensemble für Barockmusik
-date: 2025-10-09T17:00:00
+date: 2025-11-09T17:00:00
 location: Villa Mettlen, Muri
 prices: [25, 35, 15]
 cover: './mettlen-konzerte.jpg'
