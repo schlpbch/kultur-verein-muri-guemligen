@@ -1,6 +1,6 @@
 ---
 title: Schnyder, Schnyder, Schnyder & Schnyder
-subtitle: «flüech & gebättt & chräche vou schwige»
+subtitle: «flüech & gebätt & chräche vou schwige»
 date: 2025-11-07T20:00:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
