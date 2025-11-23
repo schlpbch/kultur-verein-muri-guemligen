@@ -10,6 +10,9 @@ export default defineConfig({
   site: process.env.CI
     ? 'https://kulturverein-muri.ch/'
     : 'http://localhost:4321',
+  redirects: {
+    '/mitgliedschaft': '/contact',
+  },
   integrations: [
     react(),
     tailwind({
