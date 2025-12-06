@@ -10,7 +10,7 @@ import {
   CardTitle,
   CardDescription,
 } from '@components/ui/card'
-import defaultCover from '../content/events/cover-photo-place-holder.svg'
+import defaultCover from '../content/events/2025/cover-photo-place-holder.svg'
 import EventPrices from './EventPrices.astro'
 import EventActions from './EventActions.astro'
 
@@ -42,7 +42,7 @@ const { Content } = await event.render()
       <CardTitle>{title}</CardTitle>
     </div>
     <h3
-      class="text-lg font-semibold leading-tight tracking-tight text-yellow-400"
+      class="text-lg leading-tight font-semibold tracking-tight text-yellow-400"
     >
       {subtitle}
     </h3>
@@ -76,7 +76,7 @@ const { Content } = await event.render()
         />
       )
     }
-    <div class="text-xs text-muted-foreground">
+    <div class="text-muted-foreground text-xs">
       &copy; {copyright}
     </div>
 
