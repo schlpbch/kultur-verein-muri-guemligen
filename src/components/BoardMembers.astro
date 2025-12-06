@@ -1,8 +1,6 @@
 ---
 import { Image } from 'astro:assets'
 import { Card, CardContent, CardHeader } from '@components/ui/card'
-import type { BoardMember } from 'types'
-
 import { getCollection } from 'astro:content'
 const boardMembers = await getCollection('boardMembers')
 ---

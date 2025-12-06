@@ -11,7 +11,7 @@ const { event } = Astro.props
 
 const currentUrl = encodeURI('https://kulturverein-muri.ch/')
 
-const createMailLink = (event) => {
+const createMailLink = (event: { data: EventData }) => {
   const title = encodeURIComponent(event.data.title)
   const subject = encodeURIComponent('Einladung zu ') + title
   const url = currentUrl + '#' + encodeURIComponent(title)
@@ -26,7 +26,7 @@ const createMailLink = (event) => {
   return `mailto:?subject=${subject}&body=${body}`
 }
 
-const createWhatsAppLink = (event) => {
+const createWhatsAppLink = (event: { data: EventData }) => {
   const title = encodeURI(event.data.title)
   const text = encodeURI(
     'Interessanter Event vom Kulturverein Muri Gümligen: \n',

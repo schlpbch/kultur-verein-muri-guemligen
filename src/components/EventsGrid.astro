@@ -1,5 +1,10 @@
 ---
 import EventCard from './EventCard.astro'
+import type { CollectionEntry } from 'astro:content'
+
+interface Props {
+  events: CollectionEntry<'events'>[]
+}
 
 const { events } = Astro.props
 ---
