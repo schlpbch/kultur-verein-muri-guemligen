@@ -10,7 +10,7 @@ import {
   CardTitle,
   CardDescription,
 } from '@components/ui/card'
-import defaultCover from '../content/events/2025/cover-photo-place-holder.svg'
+
 import EventPrices from './EventPrices.astro'
 import EventActions from './EventActions.astro'
 
@@ -53,7 +53,7 @@ const { Content } = await event.render()
         <a type="button" href={reservationURL} target="_blank" rel="noopener">
           <div class="container">
             <Image
-              src={cover || defaultCover}
+              src={cover}
               alt={title}
               width={600}
               height={400}
@@ -67,7 +67,7 @@ const { Content } = await event.render()
         </a>
       ) : (
         <Image
-          src={cover || defaultCover}
+          src={cover}
           alt={title}
           width={600}
           height={400}
