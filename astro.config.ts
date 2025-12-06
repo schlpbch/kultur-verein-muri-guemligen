@@ -13,10 +13,7 @@ export default defineConfig({
   redirects: {
     '/mitgliedschaft': '/contact',
   },
-  integrations: [
-    react(),
-    sitemap(),
-  ],
+  integrations: [react(), sitemap()],
   vite: {
     plugins: [tailwindcss()],
   },

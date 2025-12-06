@@ -1,5 +1,4 @@
 ---
-import { Image } from 'astro:assets'
 import heroImage from '../assets/images/the-sparklettes.png'
 ---
 
@@ -28,7 +27,12 @@ import heroImage from '../assets/images/the-sparklettes.png'
         </a>
       </div>
       <div class="flex-1">
-        <Image src={heroImage} width={512} height={544} alt="The Sparklettes" />
+        <img
+          src={heroImage.src}
+          width={512}
+          height={544}
+          alt="The Sparklettes"
+        />
       </div>
     </div>
   </div>
