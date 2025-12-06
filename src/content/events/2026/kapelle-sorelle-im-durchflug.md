@@ -11,8 +11,6 @@ reservationURL: https://eventfrog.ch/de/p/konzert/weitere-musikrichtungen/kapell
 
 [Kapelle Sorelle](https://www.kapellesorelle.ch/) zaubert mit Musik fantasievolle Bilderwelten auf die Bühne. Ohne Bühnenbild, mit sparsamer Ausstattung, in der kein Requisit zu viel ist, regen sie die Vorstellungskraft des Publikums an. Gegenstände und Musikinstrumente werden mehrfach und in unterschiedlichem Kontext benutzt und zweckentfremdet, um Geschichten zu erzählen.
 
-Mehr Informationen finden Sie auf der [Homepage von Kapelle Sorelle
-
 Das Markenzeichen der Kapelle Sorelle sind Handorgeln in allen Längen und Grössen, die sie, wie Körperteile, mit sich herumtragen und denen sie in allen Lagen überraschende Töne entlocken.
 
 Im Jahr 2014 tourten sie mit dem Circus Monti durch die Schweiz und mit diversen Eigenproduktionen sind sie bei etlichen Gastspielen aufgetreten.
