@@ -22,3 +22,9 @@ export async function sortEventsByDate(events) {
     return new Date(a.data.date) - new Date(b.data.date)
   })
 }
+
+export async function invertSortEventsByDate(events) {
+  return events.sort((a, b) => {
+    return new Date(b.data.date) - new Date(a.data.date)
+  })
+}

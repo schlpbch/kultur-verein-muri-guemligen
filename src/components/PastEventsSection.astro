@@ -1,11 +1,15 @@
 ---
-import { filterPastEvents, sortEventsByDate } from '../lib/utils.ts'
+import {
+  filterPastEvents,
+  invertSortEventsByDate,
+  sortEventsByDate,
+} from '../lib/utils.ts'
 import { getCollection } from 'astro:content'
 import EventsGrid from './EventsGrid.astro'
 
 const events = await getCollection('events')
 const pastEvents = await filterPastEvents(events)
-const sortedEvents = await sortEventsByDate(pastEvents)
+const sortedEvents = await invertSortEventsByDate(pastEvents)
 ---
 
 <section id="PastEventsSection" class="pt-16">
