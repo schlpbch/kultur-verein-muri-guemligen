@@ -11,5 +11,4 @@ reservationURL: 'https://www.villamettlen.ch/mettlen-konzerte/vorverkauf/'
 
 Die [Musikschule Muri-Gümligen](https://www.villamettlen.ch) organisiert mit den Mettlen-Konzerten eine aussergewöhnliche Konzertreihe. Im schmucken Barocksaal lassen wir die alte Tradition der Hausmusik aufleben und bieten auch dieses Jahr ein Programm erster Güte.
 
-Lassen Sie sich vom Ensemble Angela Wiedmer, Mezzosopran,
-Fabian Meinen, Tenor und Margalith Eugster, Klavier musikalisch verwöhnen!
+Lassen Sie sich von Ensemble **Angela Wiedmer**, Mezzosopran, **Fabian Meinen**, Tenor und **Margalith Eugster**, Klavier musikalisch verwöhnen!

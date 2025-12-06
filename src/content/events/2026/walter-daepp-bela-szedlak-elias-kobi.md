@@ -8,7 +8,7 @@ cover: './images/walter-daepp-bela-szedlak-elias-kobi.jpg'
 copyright: Walter Däpp
 ---
 
-Walter Däpp erzählt uns berndeutsche Kurzgeschichten. Er war als Bund-Journalist tätig und Autor der Morgengeschichte auf Radio SRF.
+**Walter Däpp** erzählt uns berndeutsche Kurzgeschichten. Er war als Bund-Journalist tätig und Autor der Morgengeschichte auf Radio SRF.
 
 Die beiden Kontrabassisten Béla Szedlák und sein 55 Jahre jüngerer Enkel Elias Kobi machen diese literarischen Kostbarkeiten musikalisch zum generationenübergreifenden Ohrenschmaus.
 

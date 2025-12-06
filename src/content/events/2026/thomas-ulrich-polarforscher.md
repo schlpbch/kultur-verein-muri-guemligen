@@ -8,9 +8,9 @@ cover: './images/thomas-ulrich-polarforscher.jpg'
 copyright: Thomas Ulrich
 ---
 
-**Ziehen Sie sich warm an**
+**Ziehen Sie sich warm an!**
 
-Der Polarforscher Thomas Ulrich fasziniert und motiviert, denn er lebt seine Träume. Er verliert keine Zeit. Was er will, das verwirklicht er.
+Der Polarforscher **Thomas Ulrich** fasziniert und motiviert, denn er lebt seine Träume. Er verliert keine Zeit. Was er will, das verwirklicht er.
 
 Die Kraft, die Zielstrebigkeit, die Leidenschaft und der Witz des Abenteurers sind ein Geschenk für jeden Zuhörer. Als hervorragender Outdoor-Fotograf und Kameramann arbeitete er zum Beispiel für den Kinofilm Nordwand, dokumentierte eine Everest-Besteigung für das Schweizer Fernsehen und publiziert im amerikanischen National Geographic Magazine.
 

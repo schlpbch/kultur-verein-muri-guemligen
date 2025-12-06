@@ -8,7 +8,7 @@ cover: './images/les-sirenes-cest-moi.jpg'
 copyright: Kathrin Hallauer
 ---
 
-Schon im Altertum betörten die Sirenen mit ihrem süssen Gesang. Seit 1999 ziehen die meist 16 Sängerinnen des Berner Frauenvokalensembles les sirènes das Publikum in ihren Bann – mit Stimmenvielfalt, musikalischen Leckerbissen und abwechslungsreichen Inszenierungen.
+Schon im Altertum betörten die Sirenen mit ihrem süssen Gesang. Seit 1999 ziehen die meist 16 Sängerinnen des Berner Frauenvokalensembles [les sirènes](https://lessirenes.ch) das Publikum in ihren Bann – mit Stimmenvielfalt, musikalischen Leckerbissen und abwechslungsreichen Inszenierungen.
 
 Die professionelle Dirigentin Yaira Yonne-Konishi arrangiert massgeschneidert für den Frauenchor. Ihre Arrangements zeichnen sich durch musikalische sowie sprachliche Kreativität aus und sind erfrischende Neuinterpretationen der Originale. Passend zum Inhalt trifft sie den richtigen Ton, sie fängt Stimmungen und Zwischentöne ein.
 
