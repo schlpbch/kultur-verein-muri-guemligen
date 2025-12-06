@@ -6,6 +6,7 @@ location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
 cover: './images/die-zauberhaften-taeuscher.jpg'
 copyright: Die zauberhaften Täuscher
+reservationURL: https://eventfrog.ch/de/p/theater-buehne/theater/die-zauberhaften-taeuscher-7403076466764696763.html
 ---
 
 **Zauberschau – Magie für die ganze Familie**

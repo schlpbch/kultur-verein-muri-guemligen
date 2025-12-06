@@ -6,6 +6,7 @@ location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
 cover: './images/kapelle-sorelle-im-durchflug.jpg'
 copyright: Kapelle Sorelle
+reservationURL: https://eventfrog.ch/de/p/konzert/weitere-musikrichtungen/kapelle-sorelle-im-durchflug-7403078642010462081.html
 ---
 
 [Kapelle Sorelle](https://www.kapellesorelle.ch/) zaubert mit Musik fantasievolle Bilderwelten auf die Bühne. Ohne Bühnenbild, mit sparsamer Ausstattung, in der kein Requisit zu viel ist, regen sie die Vorstellungskraft des Publikums an. Gegenstände und Musikinstrumente werden mehrfach und in unterschiedlichem Kontext benutzt und zweckentfremdet, um Geschichten zu erzählen.

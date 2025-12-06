@@ -6,6 +6,7 @@ location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
 cover: './images/thomas-ulrich-polarforscher.jpg'
 copyright: Thomas Ulrich
+reservationURL: https://eventfrog.ch/de/p/fuehrungen-vortraege/vortrag/thomas-ulrich-unterwegs-mit-dem-polarforscher-7402651866947928628.html
 ---
 
 **Ziehen Sie sich warm an!**

@@ -6,6 +6,7 @@ location: Villa Mettlen, Muri
 prices: [30, 38, 15]
 cover: './images/walter-daepp-bela-szedlak-elias-kobi.jpg'
 copyright: Walter Däpp
+reservationURL: https://eventfrog.ch/de/p/konzert/weitere-musikrichtungen/walter-daepp-bela-szedlak-elias-kobi-7400896463872521580.html
 ---
 
 **Walter Däpp** erzählt uns berndeutsche Kurzgeschichten. Er war als Bund-Journalist tätig und Autor der Morgengeschichte auf Radio SRF.

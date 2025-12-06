@@ -6,6 +6,7 @@ location: Sternen Muri BE
 prices: [10, 15, 5]
 cover: './images/musikautomatenmuseum.jpg'
 copyright: Walter Thut
+reservationURL: https://eventfrog.ch/de/p/kunst-ausstellungen/ausstellung/alte-toene-neu-erleben-besuch-musikautomatenmuseum-7403073078211699659.html
 ---
 
 Was erfreute vor Spotify, CD-Player oder Plattenspieler Auge und Ohren der Musikliebhaber?

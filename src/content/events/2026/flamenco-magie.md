@@ -6,6 +6,7 @@ location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
 cover: './images/flamenco-magie.jpg'
 copyright: Dominic Fischer (Originalfoto geschnitten)
+reservationURL: https://eventfrog.ch/de/p/konzert/weitere-musikrichtungen/alicia-lopez-alfredo-palacios-isabel-amaya-7403065678872184084.html
 ---
 
 Eintauchen in die feurige Welt des Flamenco – mitreissende Gitarrenklänge, ausdrucksstarker Tanz und magisches Andalusien hautnah erleben.

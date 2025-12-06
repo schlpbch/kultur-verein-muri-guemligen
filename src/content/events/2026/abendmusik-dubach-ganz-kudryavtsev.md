@@ -6,6 +6,7 @@ location: Reformierte Kirche Muri
 prices: [30, 38, 15]
 cover: './images/abendmusik-dubach-ganz-kudryavtsev.jpg'
 copyright: Anton Kudryavtsev
+reservationURL: https://eventfrog.ch/de/p/klassik-opern/klassik/alexandre-dubach-maxime-ganz-anton-kudryavtsev-7400880825904933073.html
 ---
 
 Dieser hochstehende Anlass vereint drei beeindruckende Musikerpersönlichkeiten in einem Konzert!
