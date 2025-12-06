@@ -4,7 +4,7 @@ subtitle: Kammermusik Ensemble
 date: 2025-09-20T19:30:00
 location: Ref. Kirche Muri
 prices: [30, 38, 15]
-cover: './e-musicae-gaudio.jpg'
+cover: './images/e-musicae-gaudio.jpg'
 copyright: E Musicae Gaudio
 reservationURL: 'https://eventfrog.ch/de/p/klassik-opern/klassik/e-musicae-gaudio-kammerensemble-7286355564992398655.html'
 ---

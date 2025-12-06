@@ -4,7 +4,7 @@ subtitle: So alt wi hütt bin i no nie gsi
 date: 2026-05-09T17:30:00
 location: Villa Mettlen, Muri
 prices: [30, 38, 15]
-cover: './cover-photo-place-holder.svg'
+cover: './images/walter-daepp-bela-szedlak-elias-kobi.jpg'
 copyright: Walter Däpp
 ---
 

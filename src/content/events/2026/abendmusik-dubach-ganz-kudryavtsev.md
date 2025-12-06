@@ -4,7 +4,7 @@ subtitle: Abendmusik
 date: 2026-02-20T19:30:00
 location: Reformierte Kirche Muri
 prices: [30, 38, 15]
-cover: './cover-photo-place-holder.svg'
+cover: './images/abendmusik-dubach-ganz-kudryavtsev.jpg'
 copyright: Anton Kudryavtsev
 ---
 

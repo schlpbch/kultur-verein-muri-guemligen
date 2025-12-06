@@ -4,7 +4,7 @@ subtitle: 21 Songs
 date: 2025-05-02T20:00:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
-cover: './andreas-schaerer-kalle-kalima.jpg'
+cover: './images/andreas-schaerer-kalle-kalima.jpg'
 copyright: Gregor Hohenberg
 reservationURL: https://eventfrog.ch/de/p/konzert/jazz-blues/andreas-schaerer-kalle-kalima-21-songs-7279471128254322082.html
 ---

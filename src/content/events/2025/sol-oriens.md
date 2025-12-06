@@ -4,7 +4,7 @@ subtitle: Orientalische Kammermusik
 date: 2025-12-05T19:30:00
 location: Benela's Kaffee & Bar, Gümligen
 prices: [20, 25, 15]
-cover: './sol-oriens.jpg'
+cover: './images/sol-oriens.jpg'
 copyright: Sol Oriens
 reservationURL: https://eventfrog.ch/de/p/konzert/world-ethno/sol-oriens-7289230549993940983.html
 ---

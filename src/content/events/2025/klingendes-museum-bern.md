@@ -4,7 +4,7 @@ subtitle: Sammlung historischer Blasinstrumente
 date: 2025-11-19T17:30:00
 location: Kramgassee 66, 3011 Bern
 prices: [30, 35, 15]
-cover: './klingendes-museum-bern.jpg'
+cover: './images/klingendes-museum-bern.jpg'
 copyright: Klingendes Museum Bern
 reservationURL: 'https://eventfrog.ch/de/p/fuehrungen-vortraege/fuehrung/klingendes-museum-bern-7289224908009137989.html'
 ---

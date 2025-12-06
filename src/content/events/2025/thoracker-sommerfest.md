@@ -4,7 +4,7 @@ subtitle: Jung und Alt feiern gemeinsam
 date: 2025-08-30T14:00:00
 location: Thoracker, Muri bei Bern
 prices: []
-cover: './thoracker-sommerfest-flyer.webp'
+cover: './images/thoracker-sommerfest-flyer.webp'
 copyright: OK Thoracker Sommerfest
 ---
 

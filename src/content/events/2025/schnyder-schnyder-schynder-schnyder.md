@@ -4,7 +4,7 @@ subtitle: «flüech & gebätt & chräche vou schwige»
 date: 2025-11-07T20:00:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
-cover: './schnyder-schnyder-schnyder-schnyder.jpg'
+cover: './images/schnyder-schnyder-schnyder-schnyder.jpg'
 copyright: Flavia Marisa Schnyder
 reservationURL: 'https://eventfrog.ch/de/p/konzert/weitere-musikrichtungen/schnyder-schnyder-schnyder-schnyder-7289217299701104520.html'
 ---

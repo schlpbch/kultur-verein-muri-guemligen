@@ -4,7 +4,7 @@ subtitle: Playtime • Kultur macht Freunde!
 date: 2026-06-18T18:15:00
 location: Muribad (Open Air)
 prices: []
-cover: './cover-photo-place-holder.svg'
+cover: './images/under-the-sexshop-playtime.jpeg'
 copyright: Under the Sexshop
 ---
 

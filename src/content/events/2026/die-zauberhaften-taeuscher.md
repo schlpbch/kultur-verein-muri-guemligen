@@ -4,7 +4,7 @@ subtitle: Eine geballte Ladung Zauberei
 date: 2026-11-06T19:30:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
-cover: './cover-photo-place-holder.svg'
+cover: './images/die-zauberhaften-taeuscher.jpg'
 copyright: Die zauberhaften Täuscher
 ---
 

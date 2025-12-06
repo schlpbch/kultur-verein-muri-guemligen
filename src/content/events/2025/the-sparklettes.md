@@ -4,7 +4,7 @@ subtitle: Helvetia Bockt!
 date: 2025-10-17T20:00:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
-cover: './the-sparklettes.jpg'
+cover: './images/the-sparklettes.jpg'
 copyright: Pia Neuenschwander
 reservationURL: 'https://eventfrog.ch/de/p/konzert/a-cappella-vocal/the-sparklettes-helvetia-bockt-7285336802881190926.html'
 ---

@@ -4,7 +4,7 @@ subtitle: Brand aktuell!
 date: 2025-06-02T19:30:00
 location: Bärtschihus, Gümligen
 prices: []
-cover: './bestseller-autorin-christine-brand.jpg'
+cover: './images/bestseller-autorin-christine-brand.jpg'
 copyright: Christine Brand
 ---
 

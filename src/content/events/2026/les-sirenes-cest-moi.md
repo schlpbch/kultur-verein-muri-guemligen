@@ -4,7 +4,7 @@ subtitle: c'est moi?
 date: 2026-04-24T20:00:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
-cover: './cover-photo-place-holder.svg'
+cover: './images/les-sirenes-cest-moi.jpg'
 copyright: Kathrin Hallauer
 ---
 

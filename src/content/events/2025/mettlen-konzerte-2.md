@@ -4,7 +4,7 @@ subtitle: Duo Violoncello & Klavier
 date: 2025-05-25T17:00:00
 location: Villa Mettlen, Muri
 prices: []
-cover: './mettlen-konzerte.jpg'
+cover: './images/mettlen-konzerte.jpg'
 copyright: Musikschule Muri-Gümligen
 reservationURL: 'https://www.villamettlen.ch/mettlen-konzerte/vorverkauf/'
 ---

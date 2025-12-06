@@ -4,7 +4,7 @@ subtitle: Ausflug ins Musikautomatenmuseum
 date: 2026-10-23T16:00:00
 location: Sternen Muri BE
 prices: [10, 15, 5]
-cover: './cover-photo-place-holder.svg'
+cover: './images/musikautomatenmuseum.jpg'
 copyright: Walter Thut
 ---
 

@@ -4,7 +4,7 @@ subtitle: Flamenco Magie
 date: 2026-09-26T20:00:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
-cover: './cover-photo-place-holder.svg'
+cover: './images/flamenco-magie.jpg'
 copyright: Dominic Fischer (Originalfoto geschnitten)
 ---
 
