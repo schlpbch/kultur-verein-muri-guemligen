@@ -4,7 +4,7 @@ subtitle: Dominik Ziörjen & Marc Fitze
 date: 2026-06-07T17:00:00
 location: Villa Mettlen, Muri
 prices: []
-cover: './images/mettlen-konzerte.jpg'
+cover: './images/mettlen-konzerte.webp'
 copyright: Musikschule Muri-Gümligen
 reservationURL: 'https://www.villamettlen.ch/mettlen-konzerte/vorverkauf/'
 ---

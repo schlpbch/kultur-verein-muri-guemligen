@@ -4,7 +4,7 @@ subtitle: So alt wi hütt bin i no nie gsi
 date: 2026-05-09T17:30:00
 location: Villa Mettlen, Muri
 prices: [30, 38, 15]
-cover: './images/walter-daepp-bela-szedlak-elias-kobi.jpg'
+cover: './images/walter-daepp-bela-szedlak-elias-kobi.webp'
 copyright: Walter Däpp
 reservationURL: https://eventfrog.ch/de/p/konzert/weitere-musikrichtungen/walter-daepp-bela-szedlak-elias-kobi-7400896463872521580.html
 ---

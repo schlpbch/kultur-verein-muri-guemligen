@@ -4,7 +4,7 @@ subtitle: 26. Vereinsversammlung
 date: 2025-03-19T19:00:00
 location: Bärtschihus, Gümligen
 prices: []
-cover: './images/vereinsversammlung.jpg'
+cover: './images/vereinsversammlung.webp'
 copyright: Andreas Durrer, Galerie kunstreich
 ---
 

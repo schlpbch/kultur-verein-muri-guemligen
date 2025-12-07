@@ -4,7 +4,7 @@ subtitle: Im Durchflug
 date: 2026-12-04T19:30:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
-cover: './images/kapelle-sorelle-im-durchflug.jpg'
+cover: './images/kapelle-sorelle-im-durchflug.webp'
 copyright: Kapelle Sorelle
 reservationURL: https://eventfrog.ch/de/p/konzert/weitere-musikrichtungen/kapelle-sorelle-im-durchflug-7403078642010462081.html
 ---

@@ -4,7 +4,7 @@ subtitle: Maurizio Arroya Reyes
 date: 2026-03-08T17:00:00
 location: Villa Mettlen, Muri
 prices: [25, 35, 15]
-cover: './images/mettlen-konzerte.jpg'
+cover: './images/mettlen-konzerte.webp'
 copyright: Musikschule Muri-Gümligen
 reservationURL: 'https://www.villamettlen.ch/mettlen-konzerte/vorverkauf/'
 ---

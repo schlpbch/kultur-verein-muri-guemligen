@@ -4,7 +4,7 @@ subtitle: Eine geballte Ladung Zauberei
 date: 2026-11-06T19:30:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
-cover: './images/die-zauberhaften-taeuscher.jpg'
+cover: './images/die-zauberhaften-taeuscher.webp'
 copyright: Die zauberhaften Täuscher
 reservationURL: https://eventfrog.ch/de/p/theater-buehne/theater/die-zauberhaften-taeuscher-7403076466764696763.html
 ---

@@ -4,7 +4,7 @@ subtitle: Abendmusik
 date: 2026-02-20T19:30:00
 location: Reformierte Kirche Muri
 prices: [30, 38, 15]
-cover: './images/abendmusik-dubach-ganz-kudryavtsev.jpg'
+cover: './images/abendmusik-dubach-ganz-kudryavtsev.webp'
 copyright: Anton Kudryavtsev
 reservationURL: https://eventfrog.ch/de/p/klassik-opern/klassik/alexandre-dubach-maxime-ganz-anton-kudryavtsev-7400880825904933073.html
 ---

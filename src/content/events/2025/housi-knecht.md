@@ -4,7 +4,7 @@ subtitle: Atelierbesuch
 date: 2025-02-14T16:00:00
 location: Atelier Housi Knecht
 prices: [15, 20, 10]
-cover: './images/housi-knecht.jpg'
+cover: './images/housi-knecht.webp'
 copyright: Housi Knecht
 ---
 

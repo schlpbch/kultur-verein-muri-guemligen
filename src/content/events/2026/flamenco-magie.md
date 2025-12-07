@@ -4,7 +4,7 @@ subtitle: Flamenco Magie
 date: 2026-09-26T20:00:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
-cover: './images/flamenco-magie.jpg'
+cover: './images/flamenco-magie.webp'
 copyright: Dominic Fischer (Originalfoto geschnitten)
 reservationURL: https://eventfrog.ch/de/p/konzert/weitere-musikrichtungen/alicia-lopez-alfredo-palacios-isabel-amaya-7403065678872184084.html
 ---

@@ -4,7 +4,7 @@ subtitle: 27. Vereinsversammlung für das Jahr 2025
 date: 2026-03-18T19:00:00
 location: Bärtschihus, Gümligen
 prices: []
-cover: './images/vereinsversammlung.jpg'
+cover: './images/vereinsversammlung.webp'
 copyright: Rudolf Mumprecht (Nachlass), Galerie kunstreich
 ---
 

@@ -4,7 +4,7 @@ subtitle: Unterwegs mit dem Polarforscher
 date: 2026-08-28T20:00:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
-cover: './images/thomas-ulrich-polarforscher.jpg'
+cover: './images/thomas-ulrich-polarforscher.webp'
 copyright: Thomas Ulrich
 reservationURL: https://eventfrog.ch/de/p/fuehrungen-vortraege/vortrag/thomas-ulrich-unterwegs-mit-dem-polarforscher-7402651866947928628.html
 ---

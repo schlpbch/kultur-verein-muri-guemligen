@@ -4,7 +4,7 @@ subtitle: Ausflug ins Musikautomatenmuseum
 date: 2026-10-23T16:00:00
 location: Sternen Muri BE
 prices: [10, 15, 5]
-cover: './images/musikautomatenmuseum.jpg'
+cover: './images/musikautomatenmuseum.webp'
 copyright: Walter Thut
 reservationURL: https://eventfrog.ch/de/p/kunst-ausstellungen/ausstellung/alte-toene-neu-erleben-besuch-musikautomatenmuseum-7403073078211699659.html
 ---
