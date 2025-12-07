@@ -22,7 +22,9 @@
     "dev": "astro dev",
     "format": "prettier -w . --cache",
     "preview": "astro preview",
-    "start": "astro dev"
+    "start": "astro dev",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.6",
