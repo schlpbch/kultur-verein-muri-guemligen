@@ -1,0 +1,12 @@
+---
+import { cn } from '@lib/utils'
+
+const { className, ...props } = Astro.props
+---
+
+<div
+  class={cn('text-2xl leading-none font-semibold tracking-tight', className)}
+  {...props}
+>
+  <slot />
+</div>

@@ -1,6 +1,6 @@
 ---
 import { Image } from 'astro:assets'
-import { buttonVariants } from '@components/ui/button'
+import Button from '@components/Button.astro'
 import ThemeToggle from '@components/ThemeToggle.astro'
 
 import logoKulturvereinMuriGümligen from '../assets/images/logo-kulturverein-muri-gümligen.svg'
@@ -31,20 +31,24 @@ import logoKulturvereinMuriGümligenDark from '../assets/images/logo-kulturverei
     </div>
     <div class="flex flex-1 items-center justify-end space-x-2">
       <nav class="flex items-center">
-        <a
+        <Button
+          as="a"
           href="/contact"
           rel="noreferrer noopener"
-          class={buttonVariants({ variant: 'link' }) + ' sm:block hidden mt-1'}
+          variant="link"
+          class="mt-1 hidden sm:block"
         >
           Kontakt
-        </a>
-        <a
+        </Button>
+        <Button
+          as="a"
           href="/about"
           rel="noreferrer noopener"
-          class={buttonVariants({ variant: 'link' }) + ' sm:block hidden mt-1'}
+          variant="link"
+          class="mt-1 hidden sm:block"
         >
           Über uns
-        </a>
+        </Button>
         <ThemeToggle />
       </nav>
     </div>

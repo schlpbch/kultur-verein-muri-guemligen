@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro'
-import { buttonVariants } from '@components/ui/button'
+import Button from '@components/Button.astro'
 ---
 
 <BaseLayout
@@ -15,6 +15,6 @@ import { buttonVariants } from '@components/ui/button'
     <p class="mb-4 leading-7 [&:not(:first-child)]:mt-6">
       Entschuldigung, die Seite, die Sie suchen, existiert nicht.
     </p>
-    <a href="/" rel="noreferrer" class={buttonVariants()}>Zurück</a>
+    <Button as="a" href="/" rel="noreferrer">Zurück</Button>
   </div>
 </BaseLayout>
