@@ -13,6 +13,6 @@ Eintauchen in die feurige Welt des Flamenco – mitreissende Gitarrenklänge, au
 
 Flamenco vereint Tanz (Baile), Gesang (Cante) und Gitarrenmusik (Toque). Ursprünglich aus den kulturellen Einflüssen von Roma, Mauren, Juden und Spaniern entstanden, ist Flamenco Ausdruck purer Emotion. Tiefe Trauer bis zu überschäumender Freude. Jede Bewegung erzählt eine Geschichte, jeder Klang berührt die Seele.
 
-Die Berner Tänzerin **Alicia Lopez**, Gitarrist **Alfredo Palacios** und die Sängerin **Isabel Amaya** berühren Herz und Seele.
+Die Berner Tänzerin [**Alicia Lopez**](http://www.alicialopez-flamenco.com), Gitarrist [**Alfredo Palacios**](http://www.flamencoencuentro.ch) und die Sängerin [**Isabel Amaya**](http://www.flamencoschule-isabelamaya.ch) berühren Herz und Seele.
 
 Olé! Ein Abend geprägt von Leidenschaft und Rhythmus.

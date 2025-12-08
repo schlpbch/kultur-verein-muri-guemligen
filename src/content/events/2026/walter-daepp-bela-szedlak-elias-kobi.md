@@ -9,7 +9,7 @@ copyright: Walter Däpp
 reservationURL: https://eventfrog.ch/de/p/konzert/weitere-musikrichtungen/walter-daepp-bela-szedlak-elias-kobi-7400896463872521580.html
 ---
 
-**Walter Däpp** erzählt uns berndeutsche Kurzgeschichten. Er war als Bund-Journalist tätig und Autor der Morgengeschichte auf Radio SRF.
+[**Walter Däpp**](http://www.walterdaepp.ch) erzählt uns berndeutsche Kurzgeschichten. Er war als Bund-Journalist tätig und Autor der Morgengeschichte auf Radio SRF.
 
 Die beiden Kontrabassisten Béla Szedlák und sein 55 Jahre jüngerer Enkel Elias Kobi machen diese literarischen Kostbarkeiten musikalisch zum generationenübergreifenden Ohrenschmaus.
 

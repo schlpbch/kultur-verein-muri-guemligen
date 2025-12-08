@@ -9,13 +9,17 @@ copyright: Anton Kudryavtsev
 reservationURL: https://eventfrog.ch/de/p/klassik-opern/klassik/alexandre-dubach-maxime-ganz-anton-kudryavtsev-7400880825904933073.html
 ---
 
-Dieser hochstehende Anlass vereint drei beeindruckende Musikerpersönlichkeiten in einem Konzert!
+Dieser hochstehende Anlass vereint drei beeindruckende
+Musikerpersönlichkeiten in einem Konzert.
 
-**Alexandre Dubach, Violine**
-Bekannt und preisgekrönt, mit bereits früher internationaler Karriere, steht er für seine ausdrucksstarke Interpretation und höchste Präzision.
+Der preisgekrönte Geiger **Alexandre Dubach** begann seine internationale
+Karriere schon in jungen Jahren. Seine ausdrucksstarken Interpretationen
+verbinden Spielfreude mit höchster Präzision.
 
-**Maxime Ganz, Cello**
-Er begeistert mit seiner Virtuosität und tiefer Musikalität. Erfolgreich auf der ganzen Welt konzertierend ist er ebenfalls als Professor tätig.
+Der Cellist [**Maxime Ganz**](http://www.maximeganz.com) begeistert sein Publikum immer wieder mit seiner
+Virtuosität und tiefen Musikalität. Nebst seinen erfolgreichen Auftritten
+weltweit, ist er auch als Professor tätig.
 
-**Anton Kudryavtsev, Gitarre**
-Überzeugt mit technischer Raffinesse und emotionaler Tiefe. Er ist mehrfacher Preisträger und gibt gleichzeitig als Lehrer sein Wissen an jüngere Generationen weiter.
+Der Gitarrist [**Anton Kudryavtsev**](http://www.kudryavtsev.ch) überzeugt mit technischer Raffinesse und
+emotionaler Tiefe. Er ist mehrfacher Preisträger und gibt als Lehrer sein Wissen
+an die jüngere Generation weiter.

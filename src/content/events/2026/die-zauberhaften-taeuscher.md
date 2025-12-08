@@ -17,4 +17,4 @@ Diese magische Unterhaltung sorgt bei Jung und Alt für Staunen, Lachen und jede
 
 Verabschieden Sie sich von der Realität und tauchen Sie ein in eine Welt, in der alles Unmögliche plötzlich möglich sein kann.
 
-**Zauberer**: Alexis, Martini und Roger, Magischer Club Bern
+**Zauberer**: [Die zauberhaften Täuscher](http://www.die-zauberhaften-taeuscher.ch) (Alexis, Martini und Roger), [Magischer Club Bern](http://www.magischerclubbern.ch)

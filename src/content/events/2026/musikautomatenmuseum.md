@@ -11,7 +11,7 @@ reservationURL: https://eventfrog.ch/de/p/kunst-ausstellungen/ausstellung/alte-t
 
 Was erfreute vor Spotify, CD-Player oder Plattenspieler Auge und Ohren der Musikliebhaber?
 
-Dies beantwortet das Musikautomaten Museum in Muri bei Bern.
+Dies beantwortet das [Musikautomaten Museum](http://www.musikautomaten-muri.ch) in Muri bei Bern.
 
 Die umfangreiche private Sammlung von Musikautomaten und Orchestrien erinnert mit ihren Exponaten an die ferne Zeit der automatischen Tonträger. Damals wurden in privaten Räumen, in Restaurants und Hotels ausgeklügelt, aber doch in einfacher Weise Musik vorgeführt. Die kulturgeschichtlich interessanten Kostbarkeiten sind hier neu zugänglich.
 
