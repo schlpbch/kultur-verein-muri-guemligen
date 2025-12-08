@@ -18,6 +18,7 @@ This is the website for Kulturverein Muri-Gümligen (Cultural Association Muri-G
 ### Testing
 
 - `pnpm test` - Run Playwright end-to-end tests (configured in playwright.config.ts)
+- `pnpm test:ui` - Run Playwright tests in UI mode (useful for debugging)
 - Playwright is configured to test on Desktop Chrome, Desktop Firefox, and Mobile Chrome (Pixel 5)
 - Tests automatically start dev server before running
 
@@ -31,13 +32,15 @@ Events are managed through Astro's content collections system:
 - Event images are co-located with markdown files in the same directory
 - Schema defined in `src/content/config.ts` with fields: title, subtitle, date, location, prices (array of numbers), cover (image), copyright, reservationURL (optional)
 - Board members data is stored as JSON in `src/content/boardMembers/board-members.json` with a JSON loader
+- RSS feed is generated for events using @astrojs/rss
 
 ### Event Display Logic
 
 - Events are filtered and sorted using utility functions in `src/lib/utils.ts`
 - `filterFutureEvents()` - Shows events with date >= today
 - `filterPastEvents()` - Shows events with date < today
-- `sortEventsByDate()` - Sorts events chronologically
+- `sortEventsByDate()` - Sorts events chronologically (ascending)
+- `invertSortEventsByDate()` - Sorts events in reverse chronological order (descending)
 - Event cards are rendered using the `EventCard.astro` component
 
 ### Styling and Design
