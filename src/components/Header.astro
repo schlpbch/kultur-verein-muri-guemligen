@@ -10,7 +10,7 @@ import logoKulturvereinMuriGümligenDark from '../assets/images/logo-kulturverei
 <header
   class="bg-background/95 supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 w-full border-b backdrop-blur"
 >
-  <div class="container flex items-center sm:justify-between">
+  <div class="container flex h-16 items-center sm:justify-between">
     <div class="flex flex-1 items-center">
       <a href="/" class="hidden items-center space-x-2 py-3 dark:block">
         <Image
@@ -31,26 +31,73 @@ import logoKulturvereinMuriGümligenDark from '../assets/images/logo-kulturverei
     </div>
     <div class="flex flex-1 items-center justify-end space-x-2">
       <nav class="flex items-center gap-4">
-        <Button
-          as="a"
-          href="/contact"
-          rel="noreferrer noopener"
-          variant="link"
-          class="hidden sm:block"
-        >
-          Kontakt
-        </Button>
-        <Button
-          as="a"
-          href="/about"
-          rel="noreferrer noopener"
-          variant="link"
-          class="hidden sm:block"
-        >
-          Über uns
-        </Button>
+        <div class="hidden gap-4 sm:flex">
+          <Button
+            as="a"
+            href="/contact"
+            rel="noreferrer noopener"
+            variant="link"
+          >
+            Kontakt
+          </Button>
+          <Button as="a" href="/about" rel="noreferrer noopener" variant="link">
+            Über uns
+          </Button>
+        </div>
         <ThemeToggle />
+        <Button
+          id="mobile-menu-toggle"
+          variant="ghost"
+          size="icon"
+          class="sm:hidden"
+          aria-label="Menu"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="h-6 w-6"
+          >
+            <line x1="4" x2="20" y1="12" y2="12"></line>
+            <line x1="4" x2="20" y1="6" y2="6"></line>
+            <line x1="4" x2="20" y1="18" y2="18"></line>
+          </svg>
+        </Button>
       </nav>
     </div>
   </div>
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="bg-background hidden border-b sm:hidden">
+    <div class="flex flex-col space-y-4 px-6 py-6 text-center">
+      <a
+        href="/contact"
+        class="hover:text-primary text-sm font-medium transition-colors"
+      >
+        Kontakt
+      </a>
+      <a
+        href="/about"
+        class="hover:text-primary text-sm font-medium transition-colors"
+      >
+        Über uns
+      </a>
+    </div>
+  </div>
 </header>
+
+<script is:inline>
+  const toggle = document.getElementById('mobile-menu-toggle')
+  const menu = document.getElementById('mobile-menu')
+
+  if (toggle && menu) {
+    toggle.addEventListener('click', () => {
+      menu.classList.toggle('hidden')
+    })
+  }
+</script>
