@@ -1,0 +1,67 @@
+---
+import { getCollection } from 'astro:content'
+import type { CollectionEntry } from 'astro:content'
+
+const currentUrl = Astro.url.href
+const events = await getCollection('events')
+const futureEvents = events.filter((event) => event.data.date > new Date())
+
+// Prepare Schema.org data for Organization
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'PerformingArtsGroup',
+  name: 'Kulturverein Muri-Gümligen',
+  url: 'https://kulturverein-muri.ch',
+  logo: 'https://kulturverein-muri.ch/logo.png', // Ensure this exists or use a valid URL
+  description:
+    'Der Kulturverein Muri-Gümligen organisiert kulturelle Veranstaltungen, Konzerte und Theateraufführungen in der Region.',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Muri bei Bern',
+    postalCode: '3074',
+    addressCountry: 'CH',
+  },
+}
+
+// Prepare Schema.org data for Events (Listing)
+const eventSchemas = futureEvents.map((event) => ({
+  '@context': 'https://schema.org',
+  '@type': 'Event',
+  name: event.data.title,
+  description:
+    event.data.subtitle ||
+    event.data.description ||
+    `Event: ${event.data.title}`,
+  startDate: event.data.date.toISOString(),
+  location: {
+    '@type': 'Place',
+    name: event.data.location,
+    address: event.data.location, // Ideally structured, but string works for simple cases
+  },
+  image: event.data.cover
+    ? new URL(event.data.cover.src, Astro.site).href
+    : undefined,
+  organizer: {
+    '@type': 'Organization',
+    name: 'Kulturverein Muri-Gümligen',
+    url: 'https://kulturverein-muri.ch',
+  },
+  offers: {
+    '@type': 'Offer',
+    url: event.data.reservationURL || currentUrl,
+    availability: 'https://schema.org/InStock',
+  },
+}))
+---
+
+<!-- Organization Schema -->
+<script
+  type="application/ld+json"
+  set:html={JSON.stringify(organizationSchema)}
+/>
+
+<!-- Event Schemas -->{
+  eventSchemas.map((schema) => (
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  ))
+}

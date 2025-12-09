@@ -1,20 +1,28 @@
 ---
 import HeadSEO from '@components/HeadSEO.astro'
+import { ClientRouter } from 'astro:transitions'
+import SchemaJSONLD from '@components/SchemaJSONLD.astro'
 import Footer from '@components/Footer.astro'
 import Header from '@components/Header.astro'
 
 interface Props {
-  title?: string | undefined
-  description?: string | undefined
+  title?: string
+  description?: string
   author?: {
     name: string
     email: string
   }
-  keywords?: string[] | undefined
+  keywords?: string[]
   ogImage?: URL | undefined
 }
 
-const { title, description, author, keywords, ogImage } = Astro.props
+const {
+  title = 'Kulturverein Muri Gümligen',
+  description = 'Willkommen beim Kulturverein Muri Gümligen',
+  author,
+  keywords,
+  ogImage,
+} = Astro.props
 ---
 
 <html lang="de">
@@ -26,6 +34,8 @@ const { title, description, author, keywords, ogImage } = Astro.props
       keywords={keywords}
       ogImage={ogImage}
     />
+    <ClientRouter />
+    <SchemaJSONLD />
   </head>
   <body class="bg-background min-h-screen font-sans antialiased">
     <div class="relative flex min-h-screen flex-col">
