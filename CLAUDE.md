@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the website for Kulturverein Muri-Gümligen (Cultural Association Muri-Gümligen), built with Astro, React, Tailwind CSS v4, and shadcn/ui components. The site manages and displays cultural events (concerts, theater, etc.) for the local community in Muri bei Bern, Switzerland.
+This is the website for Kulturverein Muri-Gümligen (Cultural Association Muri-Gümligen), built with Astro and Tailwind CSS v4. The site manages and displays cultural events (concerts, theater, etc.) for the local community in Muri bei Bern, Switzerland.
 
 ## Development Commands
 
@@ -21,8 +21,23 @@ This is the website for Kulturverein Muri-Gümligen (Cultural Association Muri-G
 - `pnpm test:ui` - Run Playwright tests in UI mode (useful for debugging)
 - Playwright is configured to test on Desktop Chrome, Desktop Firefox, and Mobile Chrome (Pixel 5)
 - Tests automatically start dev server before running
+- Test suites include:
+  - `tests/e2e.spec.ts` - End-to-end tests for all pages and user flows
+  - `tests/jsonld.spec.ts` - Schema.org JSON-LD structured data validation
+  - `tests/rss.spec.ts` - RSS feed validation
 
 ## Architecture
+
+### Site Constants
+
+Global site configuration is centralized in `src/consts.ts`:
+
+- `SITE_TITLE` - Site name
+- `SITE_DESCRIPTION` - Meta description
+- `SITE_AUTHOR` - Author name and email
+- `SITE_URL` - Production site URL
+
+These constants are used across the site for SEO, RSS feeds, and metadata.
 
 ### Content Management
 
@@ -66,11 +81,16 @@ TypeScript path aliases are configured in `tsconfig.json`:
 
 ### UI Components
 
-- Uses shadcn/ui components adapted for Astro (React islands)
-- UI components are in `src/components/ui/` (badge.tsx, button.tsx, card.tsx)
+- All components are built as native Astro components (`.astro` files)
+- Main UI components are in `src/components/`:
+  - `Badge.astro`, `Button.astro` - Interactive elements
+  - `card/*.astro` - Card components (Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter)
+  - `HeroSection.astro` - Homepage hero with title, subtitle, CTA button, and image
+  - `EventCard.astro` - Event display card
+  - `ThemeToggle.astro` - Dark/light mode toggle
+  - `Header.astro`, `Footer.astro` - Layout components
+  - `SchemaJSONLD.astro` - Structured data for SEO
 - The `cn()` utility in `src/lib/utils.ts` is used for conditional class merging
-- Astro components are in `src/components/` and use `.astro` extension
-- For interactive shadcn/ui components (Accordion, Dialog, etc.), refer to [Space Madness documentation](https://spacemadness.dev/docs/add-a-shadcn-ui-component) or shadcn-ui/ui#2890
 
 ### Deployment
 
@@ -81,10 +101,11 @@ TypeScript path aliases are configured in `tsconfig.json`:
 
 ### Configuration
 
-- `astro.config.ts` - Main Astro config with React and sitemap integrations
+- `astro.config.ts` - Main Astro config with sitemap integration
 - Redirect configured: `/mitgliedschaft` → `/contact`
 - Site URL changes based on environment (CI vs local)
-- Tailwind CSS v4 is integrated via Vite plugin, not as an Astro integration
+- Tailwind CSS v4 is integrated via Vite plugin (`@tailwindcss/vite`), not as an Astro integration
+- `src/consts.ts` - Centralized site constants for title, description, author, and URL
 
 ### Code Formatting
 
@@ -96,14 +117,26 @@ Prettier is configured with:
 - Plugins for Astro and Tailwind CSS class sorting
 - Uses caching for faster runs
 
+### Key Features
+
+- **Dark/Light Mode**: Theme toggle with persistence across view transitions
+- **SEO Optimization**: Schema.org JSON-LD structured data for events and organization
+- **RSS Feed**: Auto-generated feed for events at `/rss.xml`
+- **Responsive Design**: Mobile-first design with optimized layouts for all screen sizes
+- **Image Optimization**: Optimized images using Astro's built-in `Image` component with Sharp
+- **View Transitions**: Smooth page transitions using Astro's View Transitions API
+- **Accessibility**: WCAG-compliant color contrast and semantic HTML
+
 ## Key Pages
 
-- `src/pages/index.astro` - Homepage with hero, program section, and sponsors
-- `src/pages/about.astro` - About the association
-- `src/pages/contact.astro` - Contact form
+- `src/pages/index.astro` - Homepage with hero section, program section, and sponsors
+- `src/pages/about.astro` - About the association with board members
+- `src/pages/contact.astro` - Contact form and newsletter subscription
 - `src/pages/past-events.astro` - Archive of past events
 - `src/pages/privacy-policy.astro` - Privacy policy
 - `src/pages/imprint.astro` - Legal imprint
+- `src/pages/404.astro` - Custom 404 error page
+- `src/pages/rss.xml.ts` - RSS feed for events
 
 ## Package Manager
 
