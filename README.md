@@ -53,6 +53,7 @@ npx playwright test tests/theme-toggle.spec.ts
 ```
 
 Die Tests decken folgende Bereiche ab:
+
 - **E2E Navigation**: Funktionstests für Mobile Menü und Seitennavigation.
 - **Theme Toggle**: Sicherstellung, dass der Dark/Light Mode funktioniert und beim Seitenwechsel erhalten bleibt.
 - **RSS Feed**: Validierung des RSS Feeds (Struktur, valide XML, zukünftige Events).
@@ -63,12 +64,14 @@ Die Tests decken folgende Bereiche ab:
 Voraussetzungen: Node.js und npm/pnpm.
 
 1. **Repository klonen**
+
    ```bash
    git clone https://github.com/schlpbch/kultur-verein-muri-guemligen.git
    cd kultur-verein-muri-guemligen
    ```
 
 2. **Abhängigkeiten installieren**
+
    ```bash
    npm install
    # oder
@@ -94,17 +97,19 @@ Die generierten Dateien befinden sich im `dist/` Ordner und können auf jedem st
 ## Inhalte verwalten
 
 ### Neue Veranstaltung hinzufügen
+
 Erstelle eine neue `.md` Datei in `src/content/events/`.
 
 Format:
+
 ```markdown
 ---
-title: "Konzert Name"
+title: 'Konzert Name'
 date: 2024-05-20
-time: "20:00"
-location: "Thoracker, Muri"
-description: "Kurze Beschreibung für die Vorschau."
-image: "./images/event-bild.jpg"
+time: '20:00'
+location: 'Thoracker, Muri'
+description: 'Kurze Beschreibung für die Vorschau.'
+image: './images/event-bild.jpg'
 ---
 
 Hier folgt der detaillierte Text zur Veranstaltung...

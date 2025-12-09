@@ -1,4 +1,5 @@
 ---
+import { Image } from 'astro:assets'
 import heroImage from '../assets/images/hero-image-2026.webp'
 ---
 
@@ -27,10 +28,9 @@ import heroImage from '../assets/images/hero-image-2026.webp'
         </a>
       </div>
       <div class="flex-1">
-        <img
-          src={heroImage.src}
+        <Image
+          src={heroImage}
           width={512}
-          height={544}
           alt="Kapelle Sorelle"
           class="mx-auto rounded-sm shadow-lg"
         />

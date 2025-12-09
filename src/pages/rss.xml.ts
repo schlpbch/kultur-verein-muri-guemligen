@@ -19,25 +19,25 @@ function getImageMimeType(src: string): string {
   }
 }
 
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from '../consts'
+
 export async function GET(context: APIContext) {
   const events = await getCollection('events')
   const futureEvents = await filterFutureEvents(events)
   const sortedEvents = await sortEventsByDate(futureEvents)
 
-  const siteUrl = 'https://kulturverein-muri.ch'
-
   return rss({
-    title: 'Kulturverein Muri Gümligen - Veranstaltungen',
-    description: 'Kommende Veranstaltungen des Kulturvereins Muri Gümligen',
-    site: context.site ?? siteUrl,
+    title: `${SITE_TITLE} - Veranstaltungen`,
+    description: SITE_DESCRIPTION,
+    site: context.site ?? SITE_URL,
     items: sortedEvents.map((event) => ({
       title: event.data.title,
       description: event.data.subtitle,
       pubDate: event.data.date,
-      link: `${siteUrl}/#${encodeURIComponent(event.data.title)}`,
+      link: `${SITE_URL}/#${encodeURIComponent(event.data.title)}`,
       enclosure: event.data.cover
         ? {
-            url: `${siteUrl}${event.data.cover.src}`,
+            url: `${SITE_URL}${event.data.cover.src}`,
             type: getImageMimeType(event.data.cover.src),
             length: 0,
           }

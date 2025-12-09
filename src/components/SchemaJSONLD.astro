@@ -6,15 +6,16 @@ const currentUrl = Astro.url.href
 const events = await getCollection('events')
 const futureEvents = events.filter((event) => event.data.date > new Date())
 
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL } from '../consts'
+
 // Prepare Schema.org data for Organization
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'PerformingArtsGroup',
-  name: 'Kulturverein Muri-Gümligen',
-  url: 'https://kulturverein-muri.ch',
-  logo: 'https://kulturverein-muri.ch/logo.png', // Ensure this exists or use a valid URL
-  description:
-    'Der Kulturverein Muri-Gümligen organisiert kulturelle Veranstaltungen, Konzerte und Theateraufführungen in der Region.',
+  name: SITE_TITLE,
+  url: SITE_URL,
+  logo: `${SITE_URL}/logo.png`, // Ensure this exists or use a valid URL
+  description: SITE_DESCRIPTION,
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Muri bei Bern',
@@ -28,10 +29,7 @@ const eventSchemas = futureEvents.map((event) => ({
   '@context': 'https://schema.org',
   '@type': 'Event',
   name: event.data.title,
-  description:
-    event.data.subtitle ||
-    event.data.description ||
-    `Event: ${event.data.title}`,
+  description: event.data.subtitle || `Event: ${event.data.title}`,
   startDate: event.data.date.toISOString(),
   location: {
     '@type': 'Place',
@@ -43,8 +41,8 @@ const eventSchemas = futureEvents.map((event) => ({
     : undefined,
   organizer: {
     '@type': 'Organization',
-    name: 'Kulturverein Muri-Gümligen',
-    url: 'https://kulturverein-muri.ch',
+    name: SITE_TITLE,
+    url: SITE_URL,
   },
   offers: {
     '@type': 'Offer',
