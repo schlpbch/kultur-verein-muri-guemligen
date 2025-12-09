@@ -23,3 +23,11 @@ pnpm-debug.log*
 # Claude
 .Claude
 
+# Gemini
+
+.gemini
+
+# Tests
+test-results  
+
+
