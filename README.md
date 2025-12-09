@@ -17,7 +17,8 @@ Dieses Projekt wurde mit modernen Web-Technologien entwickelt, um Performance un
 - **Responsive Design**: Optimiert für Desktop, Tablet und Mobile.
 - **SEO & Performance**: Schnelle Ladezeiten und optimierte Metadaten.
 - **RSS Feed**: Automatisch generierter Feed für Veranstaltungen.
-- **Barrierefreiheit**: Dark Mode Unterstützung, ARIA Labels und tastaturbedienbare Navigation.
+- **Barrierefreiheit & UX**: Dark Mode Unterstützung, ARIA Labels und tastaturbedienbare Navigation.
+- **Structured Data**: JSON-LD Integration für bessere Suchmaschinenoptimierung (Events, Organization).
 - **Netlify Forms**: Integriertes Kontaktformular für Netlify Hosting.
 
 ## Projektstruktur
@@ -31,7 +32,31 @@ src/
 ├── layouts/      # Seiten-Layouts
 ├── pages/        # Routen der Anwendung (Home, Über uns, Kontakt, etc.)
 └── styles/       # Globale Styles
+tests/            # E2E Tests mit Playwright
 ```
+
+## Testing
+
+Das Projekt verwendet [Playwright](https://playwright.dev/) für End-to-End Testing.
+
+### Tests ausführen
+
+```bash
+# Alle Tests ausführen
+npx playwright test
+
+# Tests mit UI ausführen (für Debugging)
+npx playwright test --ui
+
+# Einzelne Test-Datei ausführen
+npx playwright test tests/theme-toggle.spec.ts
+```
+
+Die Tests decken folgende Bereiche ab:
+- **E2E Navigation**: Funktionstests für Mobile Menü und Seitennavigation.
+- **Theme Toggle**: Sicherstellung, dass der Dark/Light Mode funktioniert und beim Seitenwechsel erhalten bleibt.
+- **RSS Feed**: Validierung des RSS Feeds (Struktur, valide XML, zukünftige Events).
+- **JSON-LD**: Überprüfung der strukturierten Daten für SEO.
 
 ## Lokale Entwicklung
 
