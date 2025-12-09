@@ -1,29 +1,90 @@
-# Astro Shadcn UI Template
+# Kulturverein Muri-Gümligen Website
 
-This template helps you build apps with Astro, Tailwind CSS, and Shadcn UI.
+Offizielle Website des Kulturvereins Muri-Gümligen. Diese Website präsentiert das kulturelle Programm, vergangene Veranstaltungen und Informationen über den Verein.
 
-## Features
+## Technologie-Stack
 
-- [Astro](https://astro.build): A modern static site builder that allows you to write components using familiar web standards like HTML, CSS, and JavaScript.
-- [Tailwind CSS](https://tailwindcss.com): A utility-first CSS framework that provides a set of pre-designed styling classes to rapidly build user interfaces.
-- [shadcn/ui](https://ui.shadcn.com): A collection of reusable UI components for building responsive and accessible interfaces.
-- The template includes support for a theme toggle, allowing users to switch between light and dark themes.
+Dieses Projekt wurde mit modernen Web-Technologien entwickelt, um Performance und Benutzerfreundlichkeit zu gewährleisten:
 
-## How to add components
+- **[Astro](https://astro.build)**: Static Site Generator für höchste Performance.
+- **[Tailwind CSS](https://tailwindcss.com)**: Utility-first CSS Framework für das Styling.
+- **TypeScript**: Für typsicheren Code.
 
-Shadcn UI is a collection of re-usable components that can be easily integrated into your applications. It is not a component library, but rather a set of components that you can copy and paste into your projects.
+## Funktionen
 
-To add a new component to your application, please refer to the [configuration guide](https://ui.shadcn.com/docs/installation/astro#thats-it).
+- **Veranstaltungskalender**: Übersicht über kommende und vergangene Events.
+- **Content Management**: Einfaches Verwalten von Events und Vorstandsmitgliedern über Collections (`src/content`).
+- **Responsive Design**: Optimiert für Desktop, Tablet und Mobile.
+- **SEO & Performance**: Schnelle Ladezeiten und optimierte Metadaten.
+- **RSS Feed**: Automatisch generierter Feed für Veranstaltungen.
+- **Barrierefreiheit**: Dark Mode Unterstützung, ARIA Labels und tastaturbedienbare Navigation.
+- **Netlify Forms**: Integriertes Kontaktformular für Netlify Hosting.
 
-> [!NOTE]
-> In Astro, an [island](https://docs.astro.build/en/concepts/islands/) refers to any interactive UI component on the page. To add an interactive component like [Accordion](https://ui.shadcn.com/docs/components/accordion), [Dialog](https://ui.shadcn.com/docs/components/dialog) and more you have a couple of solutions available: [Add a Shadcn UI Component - Space Madness](https://spacemadness.dev/docs/add-a-shadcn-ui-component) or [shadcn-ui/ui#2890](https://github.com/AREA44/astro-shadcn-ui-template/issues/66).
+## Projektstruktur
 
-For detailed documentation on using Shadcn UI, please visit the [full documentation](https://ui.shadcn.com/docs).
+```
+src/
+├── components/   # Wiederverwendbare UI-Komponenten
+├── content/      # Inhalte (Events, Vorstandsmitglieder)
+│   ├── events/        # Markdown/MDX Dateien für Events
+│   └── boardMembers/  # JSON Dateien für Vorstandsmitglieder
+├── layouts/      # Seiten-Layouts
+├── pages/        # Routen der Anwendung (Home, Über uns, Kontakt, etc.)
+└── styles/       # Globale Styles
+```
 
-Shadcn UI is primarily built for the React framework. If you are unfamiliar with framework components in Astro, we recommend reading the [framework components guide](https://docs.astro.build/en/core-concepts/framework-components/) to get started.
+## Lokale Entwicklung
 
-Feel free to explore the various components and enhance your application with Shadcn UI!
+Voraussetzungen: Node.js und npm/pnpm.
 
-## License
+1. **Repository klonen**
+   ```bash
+   git clone https://github.com/schlpbch/kultur-verein-muri-guemligen.git
+   cd kultur-verein-muri-guemligen
+   ```
 
-Licensed under the [MIT License](LICENSE).
+2. **Abhängigkeiten installieren**
+   ```bash
+   npm install
+   # oder
+   pnpm install
+   ```
+
+3. **Entwicklungsserver starten**
+   ```bash
+   npm run dev
+   ```
+   Die Seite ist dann unter `http://localhost:4321` erreichbar.
+
+## Build & Deployment
+
+Um die statische Seite für die Produktion zu bauen:
+
+```bash
+npm run build
+```
+
+Die generierten Dateien befinden sich im `dist/` Ordner und können auf jedem statischen Webhoster (Netlify, Vercel, GitHub Pages, Hostpoint) deployed werden.
+
+## Inhalte verwalten
+
+### Neue Veranstaltung hinzufügen
+Erstelle eine neue `.md` Datei in `src/content/events/`.
+
+Format:
+```markdown
+---
+title: "Konzert Name"
+date: 2024-05-20
+time: "20:00"
+location: "Thoracker, Muri"
+description: "Kurze Beschreibung für die Vorschau."
+image: "./images/event-bild.jpg"
+---
+
+Hier folgt der detaillierte Text zur Veranstaltung...
+```
+
+## Lizenz
+
+Dieses Projekt ist unter der MIT Lizenz veröffentlicht.
