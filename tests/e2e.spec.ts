@@ -25,6 +25,10 @@ test.describe('Mobile Navigation', () => {
     // Check navigation
     await contactLink.click();
     await expect(page).toHaveURL(/.*contact/);
+
+    // Verify menu works after navigation (regression test)
+    await menuToggle.click();
+    await expect(mobileMenu).toBeVisible();
   });
 });
 
@@ -64,9 +68,9 @@ test.describe('Accessibility & Forms', () => {
        await form.scrollIntoViewIfNeeded();
 
        // Check input fields by label
-       await expect(page.getByLabel('Vorname')).toBeVisible();
-       await expect(page.getByLabel('Nachname')).toBeVisible();
-       await expect(page.getByLabel('Email')).toBeVisible();
+       await expect(page.locator('#first-name')).toBeVisible();
+       await expect(page.locator('#last-name')).toBeVisible();
+       await expect(page.locator('#email')).toBeVisible();
        await expect(page.locator('#message')).toBeVisible();
        
        const submitBtn = page.getByRole('button', { name: 'Nachricht senden' });

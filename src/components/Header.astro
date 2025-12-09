@@ -91,13 +91,17 @@ import logoKulturvereinMuriGümligenDark from '../assets/images/logo-kulturverei
   </div>
 </header>
 
-<script is:inline>
-  const toggle = document.getElementById('mobile-menu-toggle')
-  const menu = document.getElementById('mobile-menu')
-
-  if (toggle && menu) {
-    toggle.addEventListener('click', () => {
-      menu.classList.toggle('hidden')
-    })
+<script>
+  const handleToggle = () => {
+    const menu = document.getElementById('mobile-menu')
+    menu?.classList.toggle('hidden')
   }
+
+  document.addEventListener('astro:page-load', () => {
+    const toggle = document.getElementById('mobile-menu-toggle')
+    if (toggle) {
+      toggle.removeEventListener('click', handleToggle)
+      toggle.addEventListener('click', handleToggle)
+    }
+  })
 </script>
