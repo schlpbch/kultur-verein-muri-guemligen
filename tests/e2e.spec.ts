@@ -56,9 +56,12 @@ test.describe('Theme Toggle', () => {
 test.describe('Accessibility & Forms', () => {
     test('contact form should have accessible fields', async ({ page }) => {
        await page.goto('/contact');
+       await page.waitForLoadState('networkidle');
        
        // Ensure the contact form is present
-       await expect(page.locator('form[name="contact"]')).toBeVisible();
+       const form = page.locator('form[name="contact"]');
+       await expect(form).toBeVisible();
+       await form.scrollIntoViewIfNeeded();
 
        // Check input fields by label
        await expect(page.getByLabel('Vorname')).toBeVisible();
@@ -69,3 +72,4 @@ test.describe('Accessibility & Forms', () => {
        const submitBtn = page.getByRole('button', { name: 'Nachricht senden' });
        await expect(submitBtn).toBeVisible();
     });
+});

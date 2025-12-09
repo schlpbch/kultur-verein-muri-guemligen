@@ -77,22 +77,26 @@ const { Content } = await event.render()
 </Card>
 
 <script>
-  const observerOptions = {
-    root: null,
-    rootMargin: '0px',
-    threshold: 0.1,
-  }
+  document.addEventListener('astro:page-load', () => {
+    const observerOptions = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.1,
+    }
 
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.remove('opacity-0', 'translate-y-8')
-        observer.unobserve(entry.target)
-      }
-    })
-  }, observerOptions)
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.remove('opacity-0', 'translate-y-8')
+          observer.unobserve(entry.target)
+        }
+      })
+    }, observerOptions)
 
-  document.querySelectorAll('.event-card').forEach((el) => observer.observe(el))
+    document
+      .querySelectorAll('.event-card')
+      .forEach((el) => observer.observe(el))
+  })
 </script>
 
 <style>
