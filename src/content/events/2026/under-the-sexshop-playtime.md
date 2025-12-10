@@ -12,8 +12,8 @@ Mit einem unvergleichlichen Mix aus melodischem Gitarrenspiel, pulsierendem Bass
 
 Mitreissende Mundart-Rock-Hymnen, Funk-Blues bis zu gefühlsvollen Balladen. Das breite Musikspektrum bringt die Herzen und auch die Tanzfläche zum Beben. Zum Tanzen, Feiern, oder einfach Geniessen.
 
-- **Nicolas Schlosser**: Gitarre und Gesang
-- **Laurenz Phantenburg**: Bass
-- **Pius Hügli**: Schlagzeug
+- Nicolas Schlosser: Gitarre und Gesang
+- Laurenz Phantenburg: Bass
+- Pius Hügli: Schlagzeug
 
 Open Air mit freiem Eintritt und Kollekte.

@@ -12,14 +12,14 @@ reservationURL: https://eventfrog.ch/de/p/klassik-opern/klassik/alexandre-dubach
 Dieser hochstehende Anlass vereint drei beeindruckende
 Musikerpersönlichkeiten in einem Konzert.
 
-Der preisgekrönte Geiger **Alexandre Dubach** begann seine internationale
+Der preisgekrönte Geiger Alexandre Dubach begann seine internationale
 Karriere schon in jungen Jahren. Seine ausdrucksstarken Interpretationen
 verbinden Spielfreude mit höchster Präzision.
 
-Der Cellist [**Maxime Ganz**](http://www.maximeganz.com) begeistert sein Publikum immer wieder mit seiner
+Der Cellist [Maxime Ganz](http://www.maximeganz.com) begeistert sein Publikum immer wieder mit seiner
 Virtuosität und tiefen Musikalität. Nebst seinen erfolgreichen Auftritten
 weltweit, ist er auch als Professor tätig.
 
-Der Gitarrist [**Anton Kudryavtsev**](http://www.kudryavtsev.ch) überzeugt mit technischer Raffinesse und
+Der Gitarrist [Anton Kudryavtsev](http://www.kudryavtsev.ch) überzeugt mit technischer Raffinesse und
 emotionaler Tiefe. Er ist mehrfacher Preisträger und gibt als Lehrer sein Wissen
 an die jüngere Generation weiter.

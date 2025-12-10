@@ -15,4 +15,4 @@ Dies beantwortet das [Musikautomaten Museum](http://www.musikautomaten-muri.ch) 
 
 Die umfangreiche private Sammlung von Musikautomaten und Orchestrien erinnert mit ihren Exponaten an die ferne Zeit der automatischen Tonträger. Damals wurden in privaten Räumen, in Restaurants und Hotels ausgeklügelt, aber doch in einfacher Weise Musik vorgeführt. Die kulturgeschichtlich interessanten Kostbarkeiten sind hier neu zugänglich.
 
-**Walter Thut**, Präsident Kulturkommission Muri Gümligen, bringt uns mit seinem grossen Wissen die Sammlung näher.
+Walter Thut, Präsident Kulturkommission Muri Gümligen, bringt uns mit seinem grossen Wissen die Sammlung näher.

@@ -9,12 +9,10 @@ copyright: Die zauberhaften Täuscher
 reservationURL: https://eventfrog.ch/de/p/theater-buehne/theater/die-zauberhaften-taeuscher-7403076466764696763.html
 ---
 
-**Zauberschau – Magie für die ganze Familie**
-
 Mit verblüffenden Effekten und einer Prise Humor wird das Publikum in Staunen versetzt. Mit Spielkarten, Seilen, unmöglichen Vorhersagen und vielem mehr erleben die Zuschauer eine breite Palette der Zauberkunst auf hohem Niveau.
 
 Diese magische Unterhaltung sorgt bei Jung und Alt für Staunen, Lachen und jede Menge Fragezeichen.
 
 Verabschieden Sie sich von der Realität und tauchen Sie ein in eine Welt, in der alles Unmögliche plötzlich möglich sein kann.
 
-**Zauberer**: [Die zauberhaften Täuscher](http://www.die-zauberhaften-taeuscher.ch) (Alexis, Martini und Roger), [Magischer Club Bern](http://www.magischerclubbern.ch)
+Zauberer: [Die zauberhaften Täuscher](http://www.die-zauberhaften-taeuscher.ch) (Alexis, Martini und Roger), [Magischer Club Bern](http://www.magischerclubbern.ch)
