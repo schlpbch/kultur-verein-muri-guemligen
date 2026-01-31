@@ -19,30 +19,36 @@
   },
   {
     "id": 3,
-    "name": "Philippe Candolfi",
+    "name": "Andreas Schlapbach",
     "role": "Event Entwicklung",
     "portrait": "./Philippe-Candolfi.png"
   },
   {
     "id": 4,
+    "name": "Philippe Candolfi",
+    "role": "Event Entwicklung",
+    "portrait": "./Philippe-Candolfi.png"
+  },
+  {
+    "id": 5,
     "name": "Yvonne Gempeler",
     "role": "Kommunikation",
     "portrait": "./Yvonne-Gempeler.png"
   },
   {
-    "id": 5,
+    "id": 6,
+    "name": "Roland Müller",
+    "role": "Kommunikation",
+    "portrait": "./Philippe-Candolfi.png"
+  },
+  {
+    "id": 7,
     "name": "Eloisa Hagen-Melo",
     "role": "Mitgliederbetreuung",
     "portrait": "./Eloisa-Hagen-Melo.png"
   },
   {
-    "id": 6,
-    "name": "Barbara Jenzer",
-    "role": "Programmkoordination",
-    "portrait": "./Barbara-Jenzer.png"
-  },
-  {
-    "id": 7,
+    "id": 8,
     "name": "Doris Lohner",
     "role": "Administration",
     "portrait": "./Doris-Lohner.png"
