@@ -1,7 +1,8 @@
 import { defineCollection, z } from 'astro:content'
-import { file } from 'astro/loaders'
+import { file, glob } from 'astro/loaders'
 
 const events = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: 'src/content/events' }),
   schema: ({ image }) =>
     z.object({
       title: z.string(),

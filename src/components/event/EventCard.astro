@@ -2,6 +2,7 @@
 import { format } from 'date-fns'
 import { de } from 'date-fns/locale'
 import { Image } from 'astro:assets'
+import { render } from 'astro:content'
 import {
   Card,
   CardContent,
@@ -27,7 +28,7 @@ const {
   copyright,
 }: EventData = event.data
 
-const { Content } = await event.render()
+const { Content } = await render(event)
 ---
 
 <Card
