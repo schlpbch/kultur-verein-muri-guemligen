@@ -13,7 +13,7 @@ Dieses Projekt wurde mit modernen Web-Technologien entwickelt, um Performance un
 ## Funktionen
 
 - **Veranstaltungskalender**: Übersicht über kommende und vergangene Events.
-- **Content Management**: Einfaches Verwalten von Events und Vorstandsmitgliedern über Collections (`src/content`).
+- **Content Management**: Einfaches Verwalten von Events (nach Jahr organisiert in `src/content/events/YYYY/`) und Vorstandsmitgliedern über Collections (`src/content`).
 - **Responsive Design**: Optimiert für Desktop, Tablet und Mobile.
 - **SEO & Performance**: Schnelle Ladezeiten und optimierte Metadaten.
 - **RSS Feed**: Automatisch generierter Feed für Veranstaltungen.
@@ -27,8 +27,12 @@ Dieses Projekt wurde mit modernen Web-Technologien entwickelt, um Performance un
 src/
 ├── components/   # Wiederverwendbare UI-Komponenten
 ├── content/      # Inhalte (Events, Vorstandsmitglieder)
-│   ├── events/        # Markdown/MDX Dateien für Events
-│   └── boardMembers/  # JSON Dateien für Vorstandsmitglieder
+│   ├── events/        # Events organisiert nach Jahr (2026/, 2025/, etc.)
+│   │   ├── 2026/      # Markdown-Dateien und Bilder für 2026
+│   │   │   ├── images/ # Event-Bilder
+│   │   │   └── *.md    # Event-Markdown-Dateien
+│   │   └── ...
+│   └── boardMembers/  # JSON Datei für Vorstandsmitglieder
 ├── layouts/      # Seiten-Layouts
 ├── pages/        # Routen der Anwendung (Home, Über uns, Kontakt, etc.)
 └── styles/       # Globale Styles
@@ -98,22 +102,26 @@ Die generierten Dateien befinden sich im `dist/` Ordner und können auf jedem st
 
 ### Neue Veranstaltung hinzufügen
 
-Erstelle eine neue `.md` Datei in `src/content/events/`.
+Erstelle eine neue `.md` Datei in `src/content/events/YYYY/` (wobei YYYY das Jahr ist, z.B. `src/content/events/2026/`).
 
 Format:
 
 ```markdown
 ---
 title: 'Konzert Name'
-date: 2024-05-20
-time: '20:00'
+subtitle: 'Optional: Untertitel'
+date: 2026-05-20
 location: 'Thoracker, Muri'
-description: 'Kurze Beschreibung für die Vorschau.'
-image: './images/event-bild.jpg'
+prices: [30, 38, 15]
+cover: './images/event-bild.webp'
+copyright: 'Fotograf/Quelle'
+reservationURL: 'https://example.com/tickets' (optional)
 ---
 
 Hier folgt der detaillierte Text zur Veranstaltung...
 ```
+
+Bilder werden im Unterordner `src/content/events/YYYY/images/` gespeichert.
 
 ## Lizenz
 

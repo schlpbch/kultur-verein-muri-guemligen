@@ -41,11 +41,11 @@ These constants are used across the site for SEO, RSS feeds, and metadata.
 
 ### Content Management
 
-Events are managed through Astro's content collections system:
+Events are managed as markdown files organized by year:
 
-- Event data is stored in `src/content/events/*.md` as markdown files with frontmatter
-- Event images are co-located with markdown files in the same directory
-- Schema defined in `src/content/config.ts` with fields: title, subtitle, date, location, prices (array of numbers), cover (image), copyright, reservationURL (optional)
+- Event data is stored in `src/content/events/YYYY/*.md` as markdown files with frontmatter (e.g., `src/content/events/2026/`)
+- Event images are stored in `src/content/events/YYYY/images/` subdirectory
+- Event frontmatter fields: title, subtitle, date, location, prices (array of numbers), cover (image path), copyright, reservationURL (optional)
 - Board members data is stored as JSON in `src/content/boardMembers/board-members.json` with a JSON loader
 - RSS feed is generated for events using @astrojs/rss
 
