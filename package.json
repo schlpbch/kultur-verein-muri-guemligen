@@ -19,6 +19,7 @@
   ],
   "scripts": {
     "build": "astro build",
+    "deploy": "bash scripts/deploy.sh",
     "dev": "astro dev",
     "format": "prettier -w . --cache",
     "preview": "astro preview",
@@ -42,6 +43,7 @@
     "@astrojs/check": "^0.9.8",
     "@playwright/test": "^1.59.1",
     "@types/node": "^25.6.0",
+    "netlify-cli": "^17.37.0",
     "prettier": "^3.8.3",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
