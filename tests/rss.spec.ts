@@ -14,7 +14,7 @@ test.describe('RSS Feed', () => {
     expect(body).toContain('<rss version="2.0">')
     expect(body).toContain('<channel>')
     expect(body).toContain(
-      '<title>Kulturverein Muri Gümligen - Veranstaltungen</title>',
+      '<title>Kulturverein Muri-Gümligen - Veranstaltungen</title>',
     )
     expect(body).toContain('</channel>')
     expect(body).toContain('</rss>')
