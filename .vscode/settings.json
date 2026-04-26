@@ -3,6 +3,14 @@
     ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
     ["cn\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
   ],
-  "cSpell.words": ["astrojs", "Gümligen", "Mettlen", "Shadcn", "Sorelle"],
+  "cSpell.words": [
+    "astrojs",
+    "Camerata",
+    "Gümligen",
+    "Kobi",
+    "Mettlen",
+    "Shadcn",
+    "Sorelle"
+  ],
   "css.lint.unknownAtRules": "ignore"
 }
