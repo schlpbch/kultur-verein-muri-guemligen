@@ -32,3 +32,6 @@ test-results
 
 # Playwright
 playwright-report
+
+# Local Netlify folder
+.netlify
