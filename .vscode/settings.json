@@ -4,13 +4,22 @@
     ["cn\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
   ],
   "cSpell.words": [
+    "Alexandre",
     "astrojs",
+    "Bärtschihus",
+    "Béla",
+    "Berndeutsche",
     "Camerata",
+    "Däpp",
+    "Dubach",
     "Gümligen",
     "Kobi",
+    "Kudryavtsev",
     "Mettlen",
     "Shadcn",
-    "Sorelle"
+    "Sorelle",
+    "Szedlák",
+    "Täuscher"
   ],
   "css.lint.unknownAtRules": "ignore"
 }
