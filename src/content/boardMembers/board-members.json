@@ -2,38 +2,39 @@
   {
     "id": 0,
     "name": "Katharina Stampfli",
-    "role": "Präsidentin, Public Relations",
+    "role": "Präsidentin, PR, Presse",
     "portrait": "./Katharina-Stampfli.png"
   },
   {
     "id": 1,
     "name": "Anna-Lisa Kirchhofer",
-    "role": "Vizepräsidentin\nRessort Klassik",
+    "role": "Vizepräsidentin, Klassik",
     "portrait": "./Anna-Lisa-Kirchhofer.png"
   },
+
   {
     "id": 2,
-    "name": "Christoph Burger",
-    "role": "Finanzen",
-    "portrait": "./Christoph-Burger.png"
-  },
-  {
-    "id": 3,
-    "name": "Andreas Schlapbach",
-    "role": "Event Entwicklung",
-    "portrait": "./Philippe-Candolfi.png"
-  },
-  {
-    "id": 4,
     "name": "Philippe Candolfi",
     "role": "Event Entwicklung",
     "portrait": "./Philippe-Candolfi.png"
   },
   {
+    "id": 3,
+    "name": "Eloisa Hagen-Melo",
+    "role": "Mitgliederbetreuung",
+    "portrait": "./Eloisa-Hagen-Melo.png"
+  },
+  {
+    "id": 4,
+    "name": "Doris Lohner",
+    "role": "Administration",
+    "portrait": "./Doris-Lohner.png"
+  },
+  {
     "id": 5,
-    "name": "Yvonne Gempeler",
-    "role": "Kommunikation",
-    "portrait": "./Yvonne-Gempeler.png"
+    "name": "Andreas Schlapbach",
+    "role": "Software Entwicklung",
+    "portrait": "./Philippe-Candolfi.png"
   },
   {
     "id": 6,
@@ -43,14 +44,8 @@
   },
   {
     "id": 7,
-    "name": "Eloisa Hagen-Melo",
-    "role": "Mitgliederbetreuung",
-    "portrait": "./Eloisa-Hagen-Melo.png"
-  },
-  {
-    "id": 8,
-    "name": "Doris Lohner",
-    "role": "Administration",
-    "portrait": "./Doris-Lohner.png"
+    "name": "Daniela Sousa",
+    "role": "Finanzen",
+    "portrait": "./Philippe-Candolfi.png"
   }
 ]

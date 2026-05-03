@@ -6,12 +6,12 @@ const boardMembers = await getCollection('boardMembers')
 ---
 
 <div
-  class="mx-auto grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
+  class="mx-auto grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
 >
   {
     boardMembers.map((member) => (
       <Card key={member.data.name}>
-        <CardContent>
+        {/*         <CardContent>
           <div class="pt-4">
             <Image
               src={member.data.portrait}
@@ -22,9 +22,9 @@ const boardMembers = await getCollection('boardMembers')
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </div>
-        </CardContent>
+        </CardContent> */}
         <CardHeader>
-          <h3 class="text-md font-medium">{member.data.name}</h3>
+          <h3 class="text-md font-black">{member.data.name}</h3>
           <p class="text-muted-foreground whitespace-pre-line">
             {member.data.role}
           </p>

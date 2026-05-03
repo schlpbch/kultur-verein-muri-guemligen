@@ -1,7 +1,7 @@
 export type BoardMember = {
   name: string
   role: string
-  imageUrl: string
+  imageUrl?: string
 }
 
 export type EventData = {
