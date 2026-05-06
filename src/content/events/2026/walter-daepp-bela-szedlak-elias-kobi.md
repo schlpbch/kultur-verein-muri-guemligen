@@ -1,7 +1,7 @@
 ---
 title: Walter Däpp, Béla Szedlák, Elias Kobi
 subtitle: So alt wi hütt bin i no nie gsi
-date: 2026-05-09T17:30:00
+date: 2026-05-09T17:30:00+01:00
 location: Villa Mettlen, Muri
 prices: [30, 38, 15]
 cover: './images/walter-daepp-bela-szedlak-elias-kobi.webp'
