@@ -1,7 +1,7 @@
 ---
 title: Mettlen-Konzerte
 subtitle: Maurizio Arroya Reyes
-date: 2026-03-08T17:00:00
+date: 2026-03-08T17:00:00+01:00
 location: Villa Mettlen, Muri
 prices: [25, 35, 15]
 cover: './images/mettlen-konzerte.webp'

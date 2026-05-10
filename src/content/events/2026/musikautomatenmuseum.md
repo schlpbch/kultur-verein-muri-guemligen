@@ -1,7 +1,7 @@
 ---
 title: Alte Töne neu erleben
 subtitle: Ausflug ins Musikautomatenmuseum
-date: 2026-10-23T16:00:00
+date: 2026-10-23T16:00:00+01:00
 location: Sternen Muri BE
 prices: [10, 15, 5]
 cover: './images/musikautomatenmuseum.webp'

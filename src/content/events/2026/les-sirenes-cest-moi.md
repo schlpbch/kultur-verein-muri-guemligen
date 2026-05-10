@@ -1,7 +1,7 @@
 ---
 title: les sirènes
 subtitle: c'est moi?
-date: 2026-04-24T20:00:00
+date: 2026-04-24T20:00:00+01:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
 cover: './images/les-sirenes-cest-moi.webp'

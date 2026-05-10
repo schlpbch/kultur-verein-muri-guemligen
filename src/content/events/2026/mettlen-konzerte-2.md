@@ -1,7 +1,7 @@
 ---
 title: Mettlen-Konzerte
 subtitle: Dominik Ziörjen & Marc Fitze
-date: 2026-06-07T17:00:00
+date: 2026-06-07T17:00:00+01:00
 location: Villa Mettlen, Muri
 prices: []
 cover: './images/mettlen-konzerte.webp'

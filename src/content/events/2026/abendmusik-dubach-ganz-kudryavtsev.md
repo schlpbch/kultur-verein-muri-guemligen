@@ -1,7 +1,7 @@
 ---
 title: Alexandre Dubach, Maxime Ganz, Anton Kudryavtsev
 subtitle: Abendmusik
-date: 2026-02-20T19:30:00
+date: 2026-02-20T19:30:00+01:00
 location: Reformierte Kirche Muri
 prices: [30, 38, 15]
 cover: './images/abendmusik-dubach-ganz-kudryavtsev.webp'

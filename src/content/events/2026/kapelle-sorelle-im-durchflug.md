@@ -1,7 +1,7 @@
 ---
 title: Kapelle Sorelle
 subtitle: Im Durchflug
-date: 2026-12-04T19:30:00
+date: 2026-12-04T19:30:00+01:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
 cover: './images/kapelle-sorelle-im-durchflug.webp'
