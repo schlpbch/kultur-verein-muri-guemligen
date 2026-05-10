@@ -1,7 +1,7 @@
 ---
 title: Alicia Lopez, Alfredo Palacios, Isabel Amaya
 subtitle: Flamenco Magie
-date: 2026-09-26T20:00:00
+date: 2026-09-26T20:00:00+01:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
 cover: './images/flamenco-magie.webp'

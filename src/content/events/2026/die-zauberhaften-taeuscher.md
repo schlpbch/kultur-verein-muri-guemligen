@@ -1,7 +1,7 @@
 ---
 title: Die zauberhaften Täuscher
 subtitle: Eine geballte Ladung Zauberei
-date: 2026-11-06T19:30:00
+date: 2026-11-06T19:30:00+01:00
 location: Bärtschihus, Gümligen
 prices: [30, 38, 15]
 cover: './images/die-zauberhaften-taeuscher.webp'
