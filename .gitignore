@@ -31,7 +31,10 @@ pnpm-debug.log*
 test-results  
 
 # Playwright
-playwright-report
+.playwright-report
 
 # Local Netlify folder
 .netlify
+
+# Test Results
+.test-results
