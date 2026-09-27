@@ -30,5 +30,8 @@ export default defineConfig({
     url: 'http://localhost:4321',
     reuseExistingServer: !process.env.CI,
     timeout: 120000,
+    // Astro 7 auto-backgrounds `astro dev` when run inside a coding agent,
+    // which makes the webServer command exit immediately. Force foreground mode.
+    env: { ASTRO_DEV_BACKGROUND: 'false' },
   },
 })

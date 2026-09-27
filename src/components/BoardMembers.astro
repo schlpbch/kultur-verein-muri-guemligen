@@ -5,13 +5,10 @@ import { getCollection } from 'astro:content'
 const boardMembers = await getCollection('boardMembers')
 ---
 
-<div
-  class="mx-auto grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
->
-  {
-    boardMembers.map((member) => (
-      <Card key={member.data.name}>
-        {/*         <CardContent>
+<div class="mx-auto grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+  {boardMembers.map((member) => (
+    <Card key={member.data.name}>
+      {/*         <CardContent>
           <div class="pt-4">
             <Image
               src={member.data.portrait}
@@ -23,13 +20,12 @@ const boardMembers = await getCollection('boardMembers')
             />
           </div>
         </CardContent> */}
-        <CardHeader>
-          <h3 class="text-md font-black">{member.data.name}</h3>
-          <p class="text-muted-foreground whitespace-pre-line">
-            {member.data.role}
-          </p>
-        </CardHeader>
-      </Card>
-    ))
-  }
+      <CardHeader>
+        <h3 class="text-md font-black">{member.data.name}</h3>
+        <p class="text-muted-foreground whitespace-pre-line">
+          {member.data.role}
+        </p>
+      </CardHeader>
+    </Card>
+  ))}
 </div>

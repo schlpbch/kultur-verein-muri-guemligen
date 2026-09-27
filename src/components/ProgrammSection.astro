@@ -10,9 +10,7 @@ const sortedEvents = await sortEventsByDate(futureEvents)
 
 <section id="Programm" class="pt-16">
   <div class="container mx-auto px-4 md:px-6">
-    <h2
-      class="text-3xl leading-tight font-extrabold tracking-tighter md:text-4xl"
-    >
+    <h2 class="text-3xl leading-tight font-extrabold tracking-tighter md:text-4xl">
       Programm
     </h2>
     <p class="text-md py-5">
@@ -21,9 +19,10 @@ const sortedEvents = await sortEventsByDate(futureEvents)
     <EventsGrid events={sortedEvents} />
     <p class="text-md pt-5">
       Hier finden Sie das gesamte
-      <a href="/Jahresprogramm-2026.pdf" class="font-bold hover:underline"
-        >Programm 2026</a
-      > zum Download.
+      <a href="/Jahresprogramm-2026.pdf" class="font-bold hover:underline">
+        Programm 2026
+      </a>{' '}
+      zum Download.
     </p>
   </div>
 </section>

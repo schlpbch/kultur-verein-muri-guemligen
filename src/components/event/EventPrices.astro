@@ -7,13 +7,11 @@ const today = new Date()
 ---
 
 <div class="flex items-center gap-1">
-  {
-    date > today && prices.length > 0 && (
-      <>
-        {prices.map((price: string) => (
-          <Badge variant="outline">{price} CHF</Badge>
-        ))}
-      </>
-    )
-  }
+  {date > today && prices.length > 0 && (
+    <>
+      {prices.map((price: string) => (
+        <Badge variant="outline">{price} CHF</Badge>
+      ))}
+    </>
+  )}
 </div>

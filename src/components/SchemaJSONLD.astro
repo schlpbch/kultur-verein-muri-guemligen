@@ -57,9 +57,7 @@ const eventSchemas = futureEvents.map((event) => ({
   type="application/ld+json"
   set:html={JSON.stringify(organizationSchema)}
 />
-
-<!-- Event Schemas -->{
-  eventSchemas.map((schema) => (
-    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
-  ))
-}
+<!-- Event Schemas -->
+{eventSchemas.map((schema) => (
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+))}

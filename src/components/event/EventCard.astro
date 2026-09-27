@@ -37,34 +37,29 @@ const { Content } = await render(event)
 >
   <CardHeader>
     <CardDescription>
-      {format(date, 'E dd. MMMM', { locale: de })}, {format(date, 'HH:mm')} &ndash;
+      {format(date, 'E dd. MMMM', { locale: de })}, {format(date, 'HH:mm')}{' '}
+      &ndash;
       {location}
     </CardDescription>
     <div class="pt-4">
       <CardTitle>{title}</CardTitle>
     </div>
-    <h3
-      class="text-lg leading-tight font-semibold tracking-tight text-yellow-400"
-    >
+    <h3 class="text-lg leading-tight font-semibold tracking-tight text-yellow-400">
       {subtitle}
     </h3>
   </CardHeader>
   <CardContent>
     {
-      (
-        <Image
-          src={cover}
-          alt={title}
-          width={600}
-          height={400}
-          class="mb-3 w-full rounded-md object-cover shadow-md"
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-        />
-      )
+      <Image
+        src={cover}
+        alt={title}
+        width={600}
+        height={400}
+        class="mb-3 w-full rounded-md object-cover shadow-md"
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+      />
     }
-    <div class="text-muted-foreground text-xs">
-      &copy; {copyright}
-    </div>
+    <div class="text-muted-foreground text-xs">&copy; {copyright}</div>
 
     <div class="text-md leading-tighter space-y-2 pt-4 tracking-tight">
       <Content />
