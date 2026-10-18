@@ -3,9 +3,10 @@ title: The Mattenhof Session
 subtitle: Berne Allstars
 date: 2027-01-10T17:00:00+01:00
 location: Bärtschihus, Gümligen
-prices: [30, 38, 15]
+prices: [30, 40, 20]
 cover: './images/the-mattenhof-session.webp'
 copyright: Berne Allstars
+reservationURL: https://eventfrog.ch/de/p/konzerte/jazz-blues/mattenhof-session-muri-bern-7505537960814598667.html#tickets
 ---
 
 Was für eine Session! Zum 80. Geburtstag von Tinu Heiniger spielten Weggefährten im Januar 2026 zwei ausverkaufte Konzerte mit so viel Spielfreude, dass schnell klar war: Das muss weitergehen!
