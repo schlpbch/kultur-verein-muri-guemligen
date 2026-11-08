@@ -1,7 +1,7 @@
 ---
 title: Mettlen-Konzerte 2027
 subtitle: Oleksandr Fediurko
-date: 2027-03-07T17:00:00+02:00
+date: 2027-03-07T17:00:00+01:00
 location: Villa Mettlen, Muri
 prices: [25, 35, 15]
 cover: './images/mettlen-konzerte.webp'
